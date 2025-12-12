@@ -1,0 +1,16 @@
+Region: Kangaroo_Island_Fire_Zone
+Location: Kangaroo Island, South Australia
+Event: Black Summer Bushfires (2019-20)
+Period: POST-FIRE RECOVERY (+1 years - 2021)
+Satellite: SENTINEL-2
+Image Type: RGB (True Color)
+Format: PNG (Viewable)
+Date: 2021-01-06
+Cloud Cover: 77.296095%
+Product ID: S2A_MSIL2A_20210106T003711_N0214_R059_T53HQA_20210106T032328
+Bands: R=B4 (Red), G=B3 (Green), B=B2 (Blue)
+Resolution: 30m
+Processing: NO cloud masking - smoke and fire effects preserved
+
+Context: Area burned ~211,500 ha (48% of island)
+Fire Period: Dec 20, 2019 - Feb 6, 2020
