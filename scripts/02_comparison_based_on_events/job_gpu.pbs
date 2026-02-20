@@ -1,0 +1,54 @@
+#!/bin/bash
+# ============================================================
+# job_gpu.pbs — GPU Training Job (workq)
+# Submit with: qsub job_gpu.pbs
+# BEFORE SUBMITTING: Run 'nvidia-smi -L' and update CUDA_VISIBLE_DEVICES below
+# ============================================================
+
+#PBS -N urban_tree_training
+#PBS -q workq                           # GPU queue ONLY
+#PBS -l select=1:ncpus=32:ngpus=1       # 1 GPU (STRICT: do NOT request >1)
+#PBS -l walltime=48:00:00
+#PBS -j oe
+#PBS -o /Data/username/urban_tree_project/logs/output_gpu.log
+
+cd $PBS_O_WORKDIR
+
+# ─── REQUIRED: Update this UUID from 'nvidia-smi -L' output ───────────────
+# Example: MIG-4d38d5cf-c802-5308-80b8-251f3cec7480
+# Run on HPC: nvidia-smi -L
+export CUDA_VISIBLE_DEVICES=MIG-REPLACE-WITH-YOUR-UUID-HERE
+# ──────────────────────────────────────────────────────────────────────────
+
+# Activate environment
+source ~/.bashrc
+conda activate urban_tree
+
+export PYTHONNOUSERSITE=1
+export TF_ENABLE_ONEDNN_OPTS=0
+PYTHON="/home/username/.conda/envs/urban_tree/bin/python3"
+
+echo "========================================"
+echo "Job: Urban Tree - GPU Training"
+echo "Started: $(date)"
+echo "Node: $(hostname)"
+echo "GPU: $CUDA_VISIBLE_DEVICES"
+echo "========================================"
+
+# Verify GPU is visible
+echo "--- GPU Check ---"
+$PYTHON -c "
+import torch
+print('CUDA available:', torch.cuda.is_available())
+if torch.cuda.is_available():
+    print('Device:', torch.cuda.get_device_name(0))
+    print('VRAM:', round(torch.cuda.get_device_properties(0).total_memory/1e9, 1), 'GB')
+"
+
+# Run training
+echo "--- Starting Training ---"
+$PYTHON 05_train.py
+
+echo "========================================"
+echo "Training finished: $(date)"
+echo "========================================"
