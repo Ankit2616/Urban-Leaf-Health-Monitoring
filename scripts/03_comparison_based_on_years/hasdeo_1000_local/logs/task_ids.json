@@ -1,0 +1,2274 @@
+[
+  {
+    "id": "KAB5OSCFAK4AQRZHUV3REBDL",
+    "description": "MON_Hasdeo_Full_2016_10_pre_event"
+  },
+  {
+    "id": "DOIXBHNJ2FRCAROFBZIPSC56",
+    "description": "MON_Hasdeo_Full_2016_11_pre_event"
+  },
+  {
+    "id": "H4AX32INNHRZ64GT2N7J2W5U",
+    "description": "MON_Hasdeo_Full_2016_12_pre_event"
+  },
+  {
+    "id": "NZPCCX4DZ5THVEED2COIVPXH",
+    "description": "MON_Hasdeo_Full_2017_01_pre_event"
+  },
+  {
+    "id": "6ONQBE66QHJMKCYQDZNQDOE3",
+    "description": "MON_Hasdeo_Full_2017_02_pre_event"
+  },
+  {
+    "id": "CEFNDVM7S3OAGCTCMF4HE2VT",
+    "description": "MON_Hasdeo_Full_2017_03_pre_event"
+  },
+  {
+    "id": "MUH3GE3DLGBE2OXZCLUEHINB",
+    "description": "MON_Hasdeo_Full_2017_11_pre_event"
+  },
+  {
+    "id": "OWBDWDPSODEDLKBXBGOVSYZW",
+    "description": "MON_Hasdeo_Full_2017_12_pre_event"
+  },
+  {
+    "id": "LX7AF3OAT2BZTZLMAG2I6D72",
+    "description": "MON_Hasdeo_Full_2018_01_first_event"
+  },
+  {
+    "id": "DTFHEJ6LDG4U5Z2ZQFABKBHY",
+    "description": "MON_Hasdeo_Full_2018_02_first_event"
+  },
+  {
+    "id": "YPFJRIRJUEN6GZHOYI7NJWTK",
+    "description": "MON_Hasdeo_Full_2018_03_first_event"
+  },
+  {
+    "id": "Z5X6RDH5GAUL27XTVBT6EBAF",
+    "description": "MON_Hasdeo_Full_2018_04_first_event"
+  },
+  {
+    "id": "TZS527WO4AJ4QGH4WPEEQOAP",
+    "description": "MON_Hasdeo_Full_2018_10_first_event"
+  },
+  {
+    "id": "WWMRRRMQHD4ZRPCM24LXD7NI",
+    "description": "MON_Hasdeo_Full_2018_11_first_event"
+  },
+  {
+    "id": "YWJ5IO475CHM6T4NQGVIHRUC",
+    "description": "MON_Hasdeo_Full_2018_12_first_event"
+  },
+  {
+    "id": "FDL4OJMHQCL525MEV5JWXGWQ",
+    "description": "MON_Hasdeo_Full_2019_01_first_event"
+  },
+  {
+    "id": "SQXUSFVCBXZCOCRJYLQQGSD6",
+    "description": "MON_Hasdeo_Full_2019_02_first_event"
+  },
+  {
+    "id": "UBJNCEOUILJ5KPYYFGA7N2WK",
+    "description": "MON_Hasdeo_Full_2019_03_first_event"
+  },
+  {
+    "id": "L7WF6OQ5FTIVS3NGV7PJTX2I",
+    "description": "MON_Hasdeo_Full_2019_04_first_event"
+  },
+  {
+    "id": "SVVSJG67FR7HNJCOIF35QM6D",
+    "description": "MON_Hasdeo_Full_2019_05_first_event"
+  },
+  {
+    "id": "IL33NSH2R5JPUU7TTH77OK7L",
+    "description": "MON_Hasdeo_Full_2019_06_first_event"
+  },
+  {
+    "id": "H2G6XN4HKXQXZHK7LXIT2GAX",
+    "description": "MON_Hasdeo_Full_2019_10_first_event"
+  },
+  {
+    "id": "NBQDRBC7JA2B3RHHBFTZPEPA",
+    "description": "MON_Hasdeo_Full_2019_11_first_event"
+  },
+  {
+    "id": "NDKUZWYTERJMURNHANWY5GQF",
+    "description": "MON_Hasdeo_Full_2019_12_first_event"
+  },
+  {
+    "id": "LMEXOPVIGZWN4KZMRCCWN7CG",
+    "description": "MON_Hasdeo_Full_2020_01_first_event"
+  },
+  {
+    "id": "KW6EGKYTZPXVC5QYBFOPH7BK",
+    "description": "MON_Hasdeo_Full_2020_02_first_event"
+  },
+  {
+    "id": "ZEOWK52XUPJVPV7IQW4TYM4A",
+    "description": "MON_Hasdeo_Full_2020_03_first_event"
+  },
+  {
+    "id": "UICVKQAVBIKPLETYSJBNYIZD",
+    "description": "MON_Hasdeo_Full_2020_04_first_event"
+  },
+  {
+    "id": "G7UKEA7QHIJV6Q4JUGNLROPV",
+    "description": "MON_Hasdeo_Full_2020_05_first_event"
+  },
+  {
+    "id": "DJG26JEQ6GLTMLSDCAGCKURK",
+    "description": "MON_Hasdeo_Full_2020_06_first_event"
+  },
+  {
+    "id": "24V63QQGKEU3YHPHIO4XYVQF",
+    "description": "MON_Hasdeo_Full_2020_09_first_event"
+  },
+  {
+    "id": "S4V54X7EDPYIRXXYHWIT7FBR",
+    "description": "MON_Hasdeo_Full_2020_10_first_event"
+  },
+  {
+    "id": "XNPIS5UUGTL5I44J42Q3NRET",
+    "description": "MON_Hasdeo_Full_2020_11_first_event"
+  },
+  {
+    "id": "2CYAFX4XOHSPJKEVKY2IC7W5",
+    "description": "MON_Hasdeo_Full_2020_12_first_event"
+  },
+  {
+    "id": "5TFRCHM4ZKAH5ILG2TIZTMIJ",
+    "description": "MON_Hasdeo_Full_2021_01_first_event"
+  },
+  {
+    "id": "DDMSWM6KA7NCLWQJEZ5XUIET",
+    "description": "MON_Hasdeo_Full_2021_02_first_event"
+  },
+  {
+    "id": "HFQLMXR4QIIMKLINJYWVZART",
+    "description": "MON_Hasdeo_Full_2021_03_first_event"
+  },
+  {
+    "id": "CJ4LGYVHYJMFYVFNR6VRXMQY",
+    "description": "MON_Hasdeo_Full_2021_04_first_event"
+  },
+  {
+    "id": "ZVPJJA5V3EDPVEXH65NHALEG",
+    "description": "MON_Hasdeo_Full_2021_05_first_event"
+  },
+  {
+    "id": "3UYTAUWE7OMEYIXDSYRKYLQG",
+    "description": "MON_Hasdeo_Full_2021_06_first_event"
+  },
+  {
+    "id": "QHTWVRPNOM3XY6LXWWGB2NJ4",
+    "description": "MON_Hasdeo_Full_2021_07_first_event"
+  },
+  {
+    "id": "BOJJL2LS253MOLQFMBYOS545",
+    "description": "MON_Hasdeo_Full_2021_08_first_event"
+  },
+  {
+    "id": "AUKOESLZF5NUZKUH56SWYVBN",
+    "description": "MON_Hasdeo_Full_2021_10_first_event"
+  },
+  {
+    "id": "EBOJSXUICLVFW75LZEMOAX5A",
+    "description": "MON_Hasdeo_Full_2021_11_first_event"
+  },
+  {
+    "id": "6557TF5GNFOEPOIYLXKHQENC",
+    "description": "MON_Hasdeo_Full_2021_12_first_event"
+  },
+  {
+    "id": "UOTWVMPZLJOU6SM22VKPZF6B",
+    "description": "MON_Hasdeo_Full_2022_01_first_event"
+  },
+  {
+    "id": "U26G5B323HGXGXNE75LCDE3F",
+    "description": "MON_Hasdeo_Full_2022_02_first_event"
+  },
+  {
+    "id": "K5VHWZWFCNTPZME5M4ZCZBGL",
+    "description": "MON_Hasdeo_Full_2022_03_second_event"
+  },
+  {
+    "id": "WUMPUFQ26VKL4GPFWEN2NXJB",
+    "description": "MON_Hasdeo_Full_2022_04_second_event"
+  },
+  {
+    "id": "BJKOYGE6OZATV5IT6WAFH7P4",
+    "description": "MON_Hasdeo_Full_2022_05_first_event"
+  },
+  {
+    "id": "YXKQN6UOVMRH7TLIGC63NDSW",
+    "description": "MON_Hasdeo_Full_2022_06_first_event"
+  },
+  {
+    "id": "FDC2XFK7VFJWSXUXXM2NM54K",
+    "description": "MON_Hasdeo_Full_2022_10_first_event"
+  },
+  {
+    "id": "24Y323XWQZWDDLZKQPMB2ABQ",
+    "description": "MON_Hasdeo_Full_2022_11_first_event"
+  },
+  {
+    "id": "S3MTDWXA4DRK3OJQQXRGJCW7",
+    "description": "MON_Hasdeo_Full_2022_12_first_event"
+  },
+  {
+    "id": "I3RTQQASJFIP3YJNNK54UBIC",
+    "description": "MON_Hasdeo_Full_2023_01_first_event"
+  },
+  {
+    "id": "Q5P6OLAWCTXBBUOJMUMU6TSR",
+    "description": "MON_Hasdeo_Full_2023_02_first_event"
+  },
+  {
+    "id": "5OKFREUAJ3DXINWT2PHXZFAS",
+    "description": "MON_Hasdeo_Full_2023_03_first_event"
+  },
+  {
+    "id": "4LMVOGIIZ2DEBPSV7HJNWB7E",
+    "description": "MON_Hasdeo_Full_2023_04_first_event"
+  },
+  {
+    "id": "72MO2KU6SN4GYCKRY7H5COIM",
+    "description": "MON_Hasdeo_Full_2023_05_first_event"
+  },
+  {
+    "id": "RKEWQ4TMAXEAWVBWAFLLSQ6T",
+    "description": "MON_Hasdeo_Full_2023_06_first_event"
+  },
+  {
+    "id": "AQIXC7ODFLY4VPLRIWZ3PNGJ",
+    "description": "MON_Hasdeo_Full_2023_08_first_event"
+  },
+  {
+    "id": "K5DWBAIIDFYMCYVI26X5T6UA",
+    "description": "MON_Hasdeo_Full_2023_10_first_event"
+  },
+  {
+    "id": "7NALXU2FWIJOBE5LXIY7YLOM",
+    "description": "MON_Hasdeo_Full_2023_11_first_event"
+  },
+  {
+    "id": "WMPALFX6PPG2YYFG64ZBCVCH",
+    "description": "MON_Hasdeo_Full_2023_12_first_event"
+  },
+  {
+    "id": "22QYYMBSBEEXWSJUS7MFGJNT",
+    "description": "MON_Hasdeo_Full_2024_01_post_event"
+  },
+  {
+    "id": "2RSZKZSC744EQXA5EB36WE2A",
+    "description": "MON_Hasdeo_Full_2024_02_post_event"
+  },
+  {
+    "id": "DN7YE34RYVQEOKUJRIXLNTRP",
+    "description": "MON_Hasdeo_Full_2024_03_post_event"
+  },
+  {
+    "id": "HNNKICD767TJJZIJ3QCWLKCZ",
+    "description": "MON_Hasdeo_Full_2024_04_post_event"
+  },
+  {
+    "id": "5MDH4PO74YD32ICUEG4SMSYM",
+    "description": "MON_Hasdeo_Full_2024_05_post_event"
+  },
+  {
+    "id": "3DQ3ZBKHV2TKVUMYMZLEGIK7",
+    "description": "MON_Hasdeo_Full_2024_06_post_event"
+  },
+  {
+    "id": "A322C4QRSTJMK723ERTKRXZG",
+    "description": "MON_Hasdeo_Full_2024_10_post_event"
+  },
+  {
+    "id": "KSCKO5TR2FXSRYC7RXDFXDQ6",
+    "description": "MON_Hasdeo_Full_2024_11_post_event"
+  },
+  {
+    "id": "NHDMPE5EU6EJTY7GMWHAQ55K",
+    "description": "MON_Hasdeo_Full_2024_12_post_event"
+  },
+  {
+    "id": "D2E34FSBYCI7DGDRAW37VEL2",
+    "description": "MON_Hasdeo_North_2016_10_pre_event"
+  },
+  {
+    "id": "Y6VDZ4AVX6ORAH7EIBU6S5QK",
+    "description": "MON_Hasdeo_North_2016_11_pre_event"
+  },
+  {
+    "id": "W2WBANEPG6FMEZRRN2UKVSSL",
+    "description": "MON_Hasdeo_North_2016_12_pre_event"
+  },
+  {
+    "id": "5GJXAMWOBODMIBKJQ6UWAGUY",
+    "description": "MON_Hasdeo_North_2017_01_pre_event"
+  },
+  {
+    "id": "UOCWPIXIYBX7T5WRNC62LZJ7",
+    "description": "MON_Hasdeo_North_2017_02_pre_event"
+  },
+  {
+    "id": "IX22PHPWX6CKMDUHQ3YX4AQY",
+    "description": "MON_Hasdeo_North_2017_03_pre_event"
+  },
+  {
+    "id": "ODN2GIK2SZCBHOEQAO7MS6QW",
+    "description": "MON_Hasdeo_North_2017_11_pre_event"
+  },
+  {
+    "id": "IFFKWEDJSIEXUMFZRP5PCRX2",
+    "description": "MON_Hasdeo_North_2017_12_pre_event"
+  },
+  {
+    "id": "GXQFU2GAF7J44DSXLZDFV5K4",
+    "description": "MON_Hasdeo_North_2018_01_first_event"
+  },
+  {
+    "id": "LIMHUYCY5WSSVFFGTUOEGZQ3",
+    "description": "MON_Hasdeo_North_2018_02_first_event"
+  },
+  {
+    "id": "M6PDAQQZC6UANFA2NWDLFHQS",
+    "description": "MON_Hasdeo_North_2018_03_first_event"
+  },
+  {
+    "id": "E7KNVL4AS77V5BQZ47XJCKYG",
+    "description": "MON_Hasdeo_North_2018_04_first_event"
+  },
+  {
+    "id": "OK25UMTSRZK6ITWRRZKHJWAO",
+    "description": "MON_Hasdeo_North_2018_10_first_event"
+  },
+  {
+    "id": "BW62PUQOR676CYEFDTI6U75L",
+    "description": "MON_Hasdeo_North_2018_11_first_event"
+  },
+  {
+    "id": "CG2Q4WZUJO7CO2TCNR2DERVF",
+    "description": "MON_Hasdeo_North_2018_12_first_event"
+  },
+  {
+    "id": "E76TEYPLHPTEVKA2XBL4DF2O",
+    "description": "MON_Hasdeo_North_2019_01_first_event"
+  },
+  {
+    "id": "TOB3TFZPRPBPBISY53YOJ33X",
+    "description": "MON_Hasdeo_North_2019_02_first_event"
+  },
+  {
+    "id": "HXDVWMK7FA5DVDTHBKSMOASN",
+    "description": "MON_Hasdeo_North_2019_03_first_event"
+  },
+  {
+    "id": "VXXSMOGCF3I5IOAMCZS7LGLL",
+    "description": "MON_Hasdeo_North_2019_04_first_event"
+  },
+  {
+    "id": "Q3Y7MMZDPI6GTEQGFFMJRIP6",
+    "description": "MON_Hasdeo_North_2019_05_first_event"
+  },
+  {
+    "id": "CQUHMSUMAKMA7Z4ITRDBUMZB",
+    "description": "MON_Hasdeo_North_2019_06_first_event"
+  },
+  {
+    "id": "TR2UKGIJUZ6DMQEJKLZU63TU",
+    "description": "MON_Hasdeo_North_2019_10_first_event"
+  },
+  {
+    "id": "UPYWNRYT6V5O66BF5DC5WJBI",
+    "description": "MON_Hasdeo_North_2019_11_first_event"
+  },
+  {
+    "id": "SAJ4ZMWJZZJASZQ4SV2IEXK6",
+    "description": "MON_Hasdeo_North_2019_12_first_event"
+  },
+  {
+    "id": "5ZGZJEDTUWDE5GG4AOCNZELK",
+    "description": "MON_Hasdeo_North_2020_01_first_event"
+  },
+  {
+    "id": "EQF63ZKUVLBGCW7GUIFLPO5U",
+    "description": "MON_Hasdeo_North_2020_02_first_event"
+  },
+  {
+    "id": "3CITDFVT6N5BGABT2TU5OAFX",
+    "description": "MON_Hasdeo_North_2020_03_first_event"
+  },
+  {
+    "id": "6WSJ2HJFPR7I4O7RIGR3HKYB",
+    "description": "MON_Hasdeo_North_2020_04_first_event"
+  },
+  {
+    "id": "MCNB46I6USHEXE6GONBWAMYT",
+    "description": "MON_Hasdeo_North_2020_05_first_event"
+  },
+  {
+    "id": "KEHGC5QN2FYFBIYDYPUV3RJS",
+    "description": "MON_Hasdeo_North_2020_06_first_event"
+  },
+  {
+    "id": "732SPKHMJBZFILVIZXLSMSAH",
+    "description": "MON_Hasdeo_North_2020_09_first_event"
+  },
+  {
+    "id": "U7D5FX2QPKTSBSOJYDPZHYY2",
+    "description": "MON_Hasdeo_North_2020_10_first_event"
+  },
+  {
+    "id": "7ENTZBQOTS5GBRR4FUE6QINZ",
+    "description": "MON_Hasdeo_North_2020_11_first_event"
+  },
+  {
+    "id": "OKZBX3QSZG4NPCCNXAKQLICY",
+    "description": "MON_Hasdeo_North_2020_12_first_event"
+  },
+  {
+    "id": "52GZV72XBJWZQQCB2KME4SLD",
+    "description": "MON_Hasdeo_North_2021_01_first_event"
+  },
+  {
+    "id": "UXXRMVWUHQAYCASI26334IRL",
+    "description": "MON_Hasdeo_North_2021_02_first_event"
+  },
+  {
+    "id": "EII7XXDBWDC344ZZYCMDUCUK",
+    "description": "MON_Hasdeo_North_2021_03_first_event"
+  },
+  {
+    "id": "DJIFY7HMKH3RT6XVNWTV3E2L",
+    "description": "MON_Hasdeo_North_2021_04_first_event"
+  },
+  {
+    "id": "3NVBJOB7GCIMHZZIPWPMKHSB",
+    "description": "MON_Hasdeo_North_2021_05_first_event"
+  },
+  {
+    "id": "ZZHGTQVFQNEQE3B5RYI72JFF",
+    "description": "MON_Hasdeo_North_2021_07_first_event"
+  },
+  {
+    "id": "4CSWCP6FRSV7IAONANWFSEUX",
+    "description": "MON_Hasdeo_North_2021_10_first_event"
+  },
+  {
+    "id": "7SAMLO4DUENZ5KI2Q4DHZG7H",
+    "description": "MON_Hasdeo_North_2021_11_first_event"
+  },
+  {
+    "id": "AIAY4DIYX6ZD6M7QNJHSRVMG",
+    "description": "MON_Hasdeo_North_2021_12_first_event"
+  },
+  {
+    "id": "WRYXMYQJ4KT3M5OIIEFVHQAS",
+    "description": "MON_Hasdeo_North_2022_01_first_event"
+  },
+  {
+    "id": "W6JF23RXGHMAYXWKUBEOHVIC",
+    "description": "MON_Hasdeo_North_2022_02_first_event"
+  },
+  {
+    "id": "SIJKCBY6QYFPXXXXKJEFEQP5",
+    "description": "MON_Hasdeo_North_2022_03_second_event"
+  },
+  {
+    "id": "ESCJFHB2F4P63O7Q25WCLYOT",
+    "description": "MON_Hasdeo_North_2022_04_second_event"
+  },
+  {
+    "id": "C6TEVM4AFU46Q6PMRTURVR25",
+    "description": "MON_Hasdeo_North_2022_05_first_event"
+  },
+  {
+    "id": "FJIY5JQARRJ3I4YZK3CITMTY",
+    "description": "MON_Hasdeo_North_2022_10_first_event"
+  },
+  {
+    "id": "NHIJQAASHOSXZXW5U33JRCIW",
+    "description": "MON_Hasdeo_North_2022_11_first_event"
+  },
+  {
+    "id": "MEIJPHEVTMMTKG25GSYBANQM",
+    "description": "MON_Hasdeo_North_2022_12_first_event"
+  },
+  {
+    "id": "FTYTIIDORKYQZ7A74V7SMP5R",
+    "description": "MON_Hasdeo_North_2023_01_first_event"
+  },
+  {
+    "id": "27PY4AJLGTUXWDOACV32XLR5",
+    "description": "MON_Hasdeo_North_2023_02_first_event"
+  },
+  {
+    "id": "5VLBMU6NJ6EYTBK67BYJVTFL",
+    "description": "MON_Hasdeo_North_2023_03_first_event"
+  },
+  {
+    "id": "ANNSQESSSOIRCHPW4VGXRERF",
+    "description": "MON_Hasdeo_North_2023_04_first_event"
+  },
+  {
+    "id": "2KHOJ3PHXRSF72ZC763LPRPI",
+    "description": "MON_Hasdeo_North_2023_05_first_event"
+  },
+  {
+    "id": "PYHSXF45A7PUSLGUWDLD4TPZ",
+    "description": "MON_Hasdeo_North_2023_06_first_event"
+  },
+  {
+    "id": "ZCCYXDKXJ3U5UTU7R4V2UICT",
+    "description": "MON_Hasdeo_North_2023_10_first_event"
+  },
+  {
+    "id": "GUVRIO2VQIW5F5AWCCOUOFNU",
+    "description": "MON_Hasdeo_North_2023_11_first_event"
+  },
+  {
+    "id": "DQJ2OIKSE4RYUMAAVMC7HXKH",
+    "description": "MON_Hasdeo_North_2023_12_first_event"
+  },
+  {
+    "id": "UJLOABUOARYLNK7BMEZ2JBOG",
+    "description": "MON_Hasdeo_North_2024_01_post_event"
+  },
+  {
+    "id": "QAQ5WMLXOIEGOFROZ6N2FXSL",
+    "description": "MON_Hasdeo_North_2024_02_post_event"
+  },
+  {
+    "id": "3CVSHHGXMEY33FRQSC4NRVNQ",
+    "description": "MON_Hasdeo_North_2024_03_post_event"
+  },
+  {
+    "id": "KCMAZJXX4OKCB5T57SJLEQKS",
+    "description": "MON_Hasdeo_North_2024_04_post_event"
+  },
+  {
+    "id": "O3YS6RR24TZQ5P6PPOPCVLNQ",
+    "description": "MON_Hasdeo_North_2024_05_post_event"
+  },
+  {
+    "id": "U4D5ALLYEYMZBT6LWQQXC6E7",
+    "description": "MON_Hasdeo_North_2024_06_post_event"
+  },
+  {
+    "id": "AUOQHTTZL2ZBZATI5PKFA67M",
+    "description": "MON_Hasdeo_North_2024_10_post_event"
+  },
+  {
+    "id": "SSZ7UMRDTDWHEH6DTJAMDUXR",
+    "description": "MON_Hasdeo_North_2024_11_post_event"
+  },
+  {
+    "id": "2YSFU45AC7OVRPRTLZAL2O66",
+    "description": "MON_Hasdeo_North_2024_12_post_event"
+  },
+  {
+    "id": "PKM65FV6DS6K7TT6MI5EWTPQ",
+    "description": "MON_Hasdeo_South_2016_10_pre_event"
+  },
+  {
+    "id": "EFODRE32RJERBWAATYYT2L5K",
+    "description": "MON_Hasdeo_South_2016_11_pre_event"
+  },
+  {
+    "id": "64ZILYVONUFHWOB4DCL7GZUJ",
+    "description": "MON_Hasdeo_South_2016_12_pre_event"
+  },
+  {
+    "id": "G4QWCVNUNNR2OHVYDZZFRK26",
+    "description": "MON_Hasdeo_South_2017_01_pre_event"
+  },
+  {
+    "id": "56BXEJ4QS2JG4FVYLIIG7C3R",
+    "description": "MON_Hasdeo_South_2017_02_pre_event"
+  },
+  {
+    "id": "AJLRPQ3QDYWFJMMUNVRYDI6E",
+    "description": "MON_Hasdeo_South_2017_03_pre_event"
+  },
+  {
+    "id": "DVC7HLU6GEDAKCCWYZINDWKU",
+    "description": "MON_Hasdeo_South_2017_11_pre_event"
+  },
+  {
+    "id": "3ORWACC5VVLHU3G63IRWAXLS",
+    "description": "MON_Hasdeo_South_2017_12_pre_event"
+  },
+  {
+    "id": "TRCSA5I37GQ7WU2T6G5IAAES",
+    "description": "MON_Hasdeo_South_2018_01_first_event"
+  },
+  {
+    "id": "VEIDPXCLQNLFNQN2KNX4GQXU",
+    "description": "MON_Hasdeo_South_2018_02_first_event"
+  },
+  {
+    "id": "QZ4BBUINY6ZGYOK3GFUIKZVP",
+    "description": "MON_Hasdeo_South_2018_03_first_event"
+  },
+  {
+    "id": "C5ZOHJRDYSNGWI7D76YBGBUS",
+    "description": "MON_Hasdeo_South_2018_04_first_event"
+  },
+  {
+    "id": "TRZHXXY2FP6YSJDYB6DRFMBJ",
+    "description": "MON_Hasdeo_South_2018_10_first_event"
+  },
+  {
+    "id": "QD6F7MKFQWAUUPSFZMH6KCIT",
+    "description": "MON_Hasdeo_South_2018_11_first_event"
+  },
+  {
+    "id": "XP5AMSZSQUGZZX7B2NODZTEA",
+    "description": "MON_Hasdeo_South_2018_12_first_event"
+  },
+  {
+    "id": "GWIH3SP6CU4R7IMKWZBJ57SB",
+    "description": "MON_Hasdeo_South_2019_01_first_event"
+  },
+  {
+    "id": "JKJJSR2UCJH74WCZ7IYXR76H",
+    "description": "MON_Hasdeo_South_2019_02_first_event"
+  },
+  {
+    "id": "AUTBZPDYUW4UJTGYKC2OBUXS",
+    "description": "MON_Hasdeo_South_2019_03_first_event"
+  },
+  {
+    "id": "ZYVYS523VDXGZSTAE6INAP2E",
+    "description": "MON_Hasdeo_South_2019_04_first_event"
+  },
+  {
+    "id": "NFZGMFWAPPUN25T7AXWYLQAS",
+    "description": "MON_Hasdeo_South_2019_05_first_event"
+  },
+  {
+    "id": "O7ZYODBGEN7S7EJBL6444S5G",
+    "description": "MON_Hasdeo_South_2019_06_first_event"
+  },
+  {
+    "id": "RF5SO2QWWWTWE7SRA67MPEFO",
+    "description": "MON_Hasdeo_South_2019_10_first_event"
+  },
+  {
+    "id": "PEGCML3LNLDQKKCTDVSRU3TS",
+    "description": "MON_Hasdeo_South_2019_11_first_event"
+  },
+  {
+    "id": "COBPRN7ZE5DT75XIK5CE6U4T",
+    "description": "MON_Hasdeo_South_2019_12_first_event"
+  },
+  {
+    "id": "CYLEINTHJP4HKKDOCDGTSUFC",
+    "description": "MON_Hasdeo_South_2020_01_first_event"
+  },
+  {
+    "id": "I3IH3EXVTL5OFQJMOMZ6LTZ3",
+    "description": "MON_Hasdeo_South_2020_02_first_event"
+  },
+  {
+    "id": "VS7T4FL2FEJDQ2RGXNSICEBQ",
+    "description": "MON_Hasdeo_South_2020_03_first_event"
+  },
+  {
+    "id": "WD7C3JUCQEKFEAAYK4JZ6IZX",
+    "description": "MON_Hasdeo_South_2020_04_first_event"
+  },
+  {
+    "id": "QGZZYT3WSDKELNATUHUNFFJP",
+    "description": "MON_Hasdeo_South_2020_05_first_event"
+  },
+  {
+    "id": "52UQT5OSH33NXLHRH74ZESOK",
+    "description": "MON_Hasdeo_South_2020_06_first_event"
+  },
+  {
+    "id": "O6DK645F5354CPLISE6VTYMN",
+    "description": "MON_Hasdeo_South_2020_09_first_event"
+  },
+  {
+    "id": "IDDEXUUPQJ5BVISUVS3WVUGL",
+    "description": "MON_Hasdeo_South_2020_10_first_event"
+  },
+  {
+    "id": "WTKTICZO4ISREN4BFK4U2EXS",
+    "description": "MON_Hasdeo_South_2020_11_first_event"
+  },
+  {
+    "id": "R3O3HLEAWMBPA5D5H2DKV6QG",
+    "description": "MON_Hasdeo_South_2020_12_first_event"
+  },
+  {
+    "id": "WTQLN542CUCWL37OTBGEHKZS",
+    "description": "MON_Hasdeo_South_2021_01_first_event"
+  },
+  {
+    "id": "5NMEPCZWCMJCRIJAQK5MBK4R",
+    "description": "MON_Hasdeo_South_2021_02_first_event"
+  },
+  {
+    "id": "HJ2JQZPCCPPSRJNPADJ3LET7",
+    "description": "MON_Hasdeo_South_2021_03_first_event"
+  },
+  {
+    "id": "S7H4GO46A5J3LLIWLQOEBGEK",
+    "description": "MON_Hasdeo_South_2021_04_first_event"
+  },
+  {
+    "id": "H45J4DTSOSPXZEWE7MCP23SZ",
+    "description": "MON_Hasdeo_South_2021_05_first_event"
+  },
+  {
+    "id": "3OAHYLG7ZD3DRJJ5A7DNVZKP",
+    "description": "MON_Hasdeo_South_2021_06_first_event"
+  },
+  {
+    "id": "EOZKBQFNSAZFPRUH7W3YADNE",
+    "description": "MON_Hasdeo_South_2021_07_first_event"
+  },
+  {
+    "id": "NCHAZB664RQNCS2IDRFQHNQA",
+    "description": "MON_Hasdeo_South_2021_08_first_event"
+  },
+  {
+    "id": "F33QKMDI4NBVBSMC5653TFPN",
+    "description": "MON_Hasdeo_South_2021_10_first_event"
+  },
+  {
+    "id": "Z2HKWEI6TDSSZBFPWDZTPLNL",
+    "description": "MON_Hasdeo_South_2021_11_first_event"
+  },
+  {
+    "id": "O4ZIO2ZGB2BBO6GX5LEJ47TS",
+    "description": "MON_Hasdeo_South_2021_12_first_event"
+  },
+  {
+    "id": "I3XR3MOYXJHGNFDZCWIJU7FH",
+    "description": "MON_Hasdeo_South_2022_01_first_event"
+  },
+  {
+    "id": "QP3GLZYWVS6FRHPB54SU5WKY",
+    "description": "MON_Hasdeo_South_2022_02_first_event"
+  },
+  {
+    "id": "YAJNOFVF5YSYOXYCCVCNGYHL",
+    "description": "MON_Hasdeo_South_2022_03_second_event"
+  },
+  {
+    "id": "ZVV36HEKIMF6P7R5QZM6TSPQ",
+    "description": "MON_Hasdeo_South_2022_04_second_event"
+  },
+  {
+    "id": "JE4BH45H2RQS2P6CLY7SDN3Y",
+    "description": "MON_Hasdeo_South_2022_05_first_event"
+  },
+  {
+    "id": "YI6X2WCNO54SFKKPGU4CZS2F",
+    "description": "MON_Hasdeo_South_2022_06_first_event"
+  },
+  {
+    "id": "DTGYXQ62BODAMESHGE4B3K6E",
+    "description": "MON_Hasdeo_South_2022_10_first_event"
+  },
+  {
+    "id": "KZFJCUXDD2EBVTRVAXGP6DUU",
+    "description": "MON_Hasdeo_South_2022_11_first_event"
+  },
+  {
+    "id": "Y5DQV2DEGPMOWZ7XALX2ELQX",
+    "description": "MON_Hasdeo_South_2022_12_first_event"
+  },
+  {
+    "id": "CLRLPEE43IHPJEKKLXSSZPM5",
+    "description": "MON_Hasdeo_South_2023_01_first_event"
+  },
+  {
+    "id": "6WFYUH4OU2CWJQUOJLNRBVBX",
+    "description": "MON_Hasdeo_South_2023_02_first_event"
+  },
+  {
+    "id": "DWINX3GP5FLIGNZVYFGAAWN4",
+    "description": "MON_Hasdeo_South_2023_03_first_event"
+  },
+  {
+    "id": "S3MP2E5OUCRCZL46OYEOWIKY",
+    "description": "MON_Hasdeo_South_2023_04_first_event"
+  },
+  {
+    "id": "WILTZSWC6IYSNNXXFNBZGJ76",
+    "description": "MON_Hasdeo_South_2023_05_first_event"
+  },
+  {
+    "id": "3ZQ2SWTP5SSDVPGR4O4UBWQR",
+    "description": "MON_Hasdeo_South_2023_06_first_event"
+  },
+  {
+    "id": "K2HRVYUGFM2QAVQ2ZADLUMAJ",
+    "description": "MON_Hasdeo_South_2023_08_first_event"
+  },
+  {
+    "id": "SNEWZLNVSHJAQ6IFS66DD2CO",
+    "description": "MON_Hasdeo_South_2023_10_first_event"
+  },
+  {
+    "id": "RCMKVZM6DCJ43NXF6QUUCAVC",
+    "description": "MON_Hasdeo_South_2023_11_first_event"
+  },
+  {
+    "id": "HGERIWGGUFWXGCAF6WKMN3TQ",
+    "description": "MON_Hasdeo_South_2023_12_first_event"
+  },
+  {
+    "id": "TZFCTJLQUZRP3RDJBVW7CR4H",
+    "description": "MON_Hasdeo_South_2024_01_post_event"
+  },
+  {
+    "id": "37IYZCJC3NJGA2Z7ERXIXY32",
+    "description": "MON_Hasdeo_South_2024_02_post_event"
+  },
+  {
+    "id": "GZU4QAC42ENEZ6YWKHALCNGU",
+    "description": "MON_Hasdeo_South_2024_03_post_event"
+  },
+  {
+    "id": "2IS5VYQUIFF42TTKNJGOKUCX",
+    "description": "MON_Hasdeo_South_2024_04_post_event"
+  },
+  {
+    "id": "LOTRUX3PWJIV3N5K5KR6BBEF",
+    "description": "MON_Hasdeo_South_2024_05_post_event"
+  },
+  {
+    "id": "PIU6QJRAJN4XXKFVHNQU4XJ5",
+    "description": "MON_Hasdeo_South_2024_06_post_event"
+  },
+  {
+    "id": "YHK74V3Z6Z5T7NPR75RA2BHR",
+    "description": "MON_Hasdeo_South_2024_10_post_event"
+  },
+  {
+    "id": "N3LVC724TQI2WICNIHQVIH6L",
+    "description": "MON_Hasdeo_South_2024_11_post_event"
+  },
+  {
+    "id": "VMRZ6QEXNM6HKXXMMEOWUL6V",
+    "description": "MON_Hasdeo_South_2024_12_post_event"
+  },
+  {
+    "id": "CQ63AODB3EL55MPFAKBA5FVQ",
+    "description": "MON_Hasdeo_Core_2016_10_pre_event"
+  },
+  {
+    "id": "FNKPVN6YUT7MDBR3AAVMKIDL",
+    "description": "MON_Hasdeo_Core_2016_11_pre_event"
+  },
+  {
+    "id": "NU76BSTVLJF2M2VKCNI6UXSC",
+    "description": "MON_Hasdeo_Core_2016_12_pre_event"
+  },
+  {
+    "id": "WPTX5LQK7RPFRSGQL47HK5WD",
+    "description": "MON_Hasdeo_Core_2017_01_pre_event"
+  },
+  {
+    "id": "DUDSKT2XPN2DRQF7YPGCYSYP",
+    "description": "MON_Hasdeo_Core_2017_02_pre_event"
+  },
+  {
+    "id": "6J4NJ722PN22GEAMTV73P4GJ",
+    "description": "MON_Hasdeo_Core_2017_03_pre_event"
+  },
+  {
+    "id": "F5QUFEVHXV2ST2RPPMOFDJN3",
+    "description": "MON_Hasdeo_Core_2017_11_pre_event"
+  },
+  {
+    "id": "6CJKWCUZBTHEUZ46VMKBAHFE",
+    "description": "MON_Hasdeo_Core_2017_12_pre_event"
+  },
+  {
+    "id": "RRTVPCB7U3ERS5C7XROWNKQP",
+    "description": "MON_Hasdeo_Core_2018_01_first_event"
+  },
+  {
+    "id": "PKYNY6OS4RDMWL2YV6P3EK3Z",
+    "description": "MON_Hasdeo_Core_2018_02_first_event"
+  },
+  {
+    "id": "XDVONVORGR7ZFH35OCGVUP4Q",
+    "description": "MON_Hasdeo_Core_2018_03_first_event"
+  },
+  {
+    "id": "JUWCN7FVAPFLEEHGZIUTWZCE",
+    "description": "MON_Hasdeo_Core_2018_04_first_event"
+  },
+  {
+    "id": "SRMVMC37PIZKEUTIM3C7JJSQ",
+    "description": "MON_Hasdeo_Core_2018_10_first_event"
+  },
+  {
+    "id": "P35U55GHXF3GCTVOSPKVL46Z",
+    "description": "MON_Hasdeo_Core_2018_11_first_event"
+  },
+  {
+    "id": "2H5YKHPRVZAZ7Y3XDYKH4MAN",
+    "description": "MON_Hasdeo_Core_2018_12_first_event"
+  },
+  {
+    "id": "7XMFHA6WEDGIEYQH6UGMN6KL",
+    "description": "MON_Hasdeo_Core_2019_01_first_event"
+  },
+  {
+    "id": "L6RV3UP6O46KIL54CYRI33Y7",
+    "description": "MON_Hasdeo_Core_2019_02_first_event"
+  },
+  {
+    "id": "LPH36CNVOMELVCFAYTTW7SDN",
+    "description": "MON_Hasdeo_Core_2019_03_first_event"
+  },
+  {
+    "id": "G6LAG3ATWIECR3RQ4XLJV3VU",
+    "description": "MON_Hasdeo_Core_2019_04_first_event"
+  },
+  {
+    "id": "R5YHUEWEPFFPH7JPGGEOG3IA",
+    "description": "MON_Hasdeo_Core_2019_05_first_event"
+  },
+  {
+    "id": "W2FA6MPS4GXSJ2Y6GSPX3M6D",
+    "description": "MON_Hasdeo_Core_2019_06_first_event"
+  },
+  {
+    "id": "NPG3JTMRADZVOMV5L5YORCN7",
+    "description": "MON_Hasdeo_Core_2019_10_first_event"
+  },
+  {
+    "id": "MKX3YOZ56YXHVYHXYBT6T64W",
+    "description": "MON_Hasdeo_Core_2019_11_first_event"
+  },
+  {
+    "id": "ACGKGPRQPB2MT5BXTNM7VTOA",
+    "description": "MON_Hasdeo_Core_2019_12_first_event"
+  },
+  {
+    "id": "6RFYSPXCTQSTBQJARQAGSW4R",
+    "description": "MON_Hasdeo_Core_2020_01_first_event"
+  },
+  {
+    "id": "5UUN5AU7M56F6QFARX6YDH6J",
+    "description": "MON_Hasdeo_Core_2020_02_first_event"
+  },
+  {
+    "id": "FMI32WYTD4OQYKGUTTT4RHDL",
+    "description": "MON_Hasdeo_Core_2020_03_first_event"
+  },
+  {
+    "id": "25PKN57OXITVN5D6XMM4ORVF",
+    "description": "MON_Hasdeo_Core_2020_04_first_event"
+  },
+  {
+    "id": "BSEOTTWNJYNS5CCXEAOD733S",
+    "description": "MON_Hasdeo_Core_2020_05_first_event"
+  },
+  {
+    "id": "GL4ZMWT6JZGEQBQDY7H76OBC",
+    "description": "MON_Hasdeo_Core_2020_06_first_event"
+  },
+  {
+    "id": "CUW4OAPUU5OSHG4RMWGUF6EO",
+    "description": "MON_Hasdeo_Core_2020_09_first_event"
+  },
+  {
+    "id": "FX36BESFWPECELZU4WPJFPYO",
+    "description": "MON_Hasdeo_Core_2020_10_first_event"
+  },
+  {
+    "id": "O6BO43ZGOVAM5OHIVD7Y7RXJ",
+    "description": "MON_Hasdeo_Core_2020_11_first_event"
+  },
+  {
+    "id": "GHNQR7WG3VPMSEENDEBY4IX5",
+    "description": "MON_Hasdeo_Core_2020_12_first_event"
+  },
+  {
+    "id": "DFF4BIATNXDXRVTWJZD2GY4J",
+    "description": "MON_Hasdeo_Core_2021_01_first_event"
+  },
+  {
+    "id": "HZXF4VPET5QLEDW4J2XEVFAD",
+    "description": "MON_Hasdeo_Core_2021_02_first_event"
+  },
+  {
+    "id": "MQJF6Z6LY6VPMNLHFLBACADR",
+    "description": "MON_Hasdeo_Core_2021_03_first_event"
+  },
+  {
+    "id": "R5FWUQA6UOR5CAOJ3FVSF2QK",
+    "description": "MON_Hasdeo_Core_2021_04_first_event"
+  },
+  {
+    "id": "6VL3CMVCAKEKX62UEJMKU7Q3",
+    "description": "MON_Hasdeo_Core_2021_05_first_event"
+  },
+  {
+    "id": "EPGSX7BFUSLPEZTBHEKX2JRT",
+    "description": "MON_Hasdeo_Core_2021_06_first_event"
+  },
+  {
+    "id": "5A3PEGNF624HE3TCATYEPM32",
+    "description": "MON_Hasdeo_Core_2021_07_first_event"
+  },
+  {
+    "id": "REAXJIKBHMEAYGHRF4HM2QRA",
+    "description": "MON_Hasdeo_Core_2021_08_first_event"
+  },
+  {
+    "id": "ETOI56UAAOCO3UV2EIG3ZKWS",
+    "description": "MON_Hasdeo_Core_2021_10_first_event"
+  },
+  {
+    "id": "J3WUC362J6Z6HLOIVPBBBVSK",
+    "description": "MON_Hasdeo_Core_2021_11_first_event"
+  },
+  {
+    "id": "4PORKWMOAJXHZZUIOEENV3QD",
+    "description": "MON_Hasdeo_Core_2021_12_first_event"
+  },
+  {
+    "id": "63GWFOSEV5XP6GRUXV3KKV7S",
+    "description": "MON_Hasdeo_Core_2022_01_first_event"
+  },
+  {
+    "id": "Z6Z5F2LPQFM2VLJFTH3AAXHQ",
+    "description": "MON_Hasdeo_Core_2022_02_first_event"
+  },
+  {
+    "id": "BA34DWODV4AKDZDWGXX5TW54",
+    "description": "MON_Hasdeo_Core_2022_03_second_event"
+  },
+  {
+    "id": "5GLNYOVPIO5JMTCJWIWPSRMX",
+    "description": "MON_Hasdeo_Core_2022_04_second_event"
+  },
+  {
+    "id": "LDLE457722SKCUSFLVSXRKXY",
+    "description": "MON_Hasdeo_Core_2022_05_first_event"
+  },
+  {
+    "id": "YQTEX4AVRGEGNZEM3F3G47P4",
+    "description": "MON_Hasdeo_Core_2022_06_first_event"
+  },
+  {
+    "id": "6XGISIHEB6KD3LJQF7R2VSCP",
+    "description": "MON_Hasdeo_Core_2022_10_first_event"
+  },
+  {
+    "id": "VHMU2AZS7LKQKE66IGDYBD7U",
+    "description": "MON_Hasdeo_Core_2022_11_first_event"
+  },
+  {
+    "id": "65KKCKET4ZL6REY2WY646NH7",
+    "description": "MON_Hasdeo_Core_2022_12_first_event"
+  },
+  {
+    "id": "FOLJCL3OT7NBSLLJGQ6NRB3W",
+    "description": "MON_Hasdeo_Core_2023_01_first_event"
+  },
+  {
+    "id": "QEJNVENBQ6TG7OEHI3PVPE5U",
+    "description": "MON_Hasdeo_Core_2023_02_first_event"
+  },
+  {
+    "id": "BLVAO2J7FAWRX6HBIZ5C3Q5M",
+    "description": "MON_Hasdeo_Core_2023_03_first_event"
+  },
+  {
+    "id": "ETUHGCFZM5QCFI63HHYGITU2",
+    "description": "MON_Hasdeo_Core_2023_04_first_event"
+  },
+  {
+    "id": "DOH4E7IROOP3SHXF5AG73UWZ",
+    "description": "MON_Hasdeo_Core_2023_05_first_event"
+  },
+  {
+    "id": "7PDWXGHNJ2Z6TGN2PC6I2MXB",
+    "description": "MON_Hasdeo_Core_2023_06_first_event"
+  },
+  {
+    "id": "GATTFGLLJ7ZA7BBZZIS5USJU",
+    "description": "MON_Hasdeo_Core_2023_08_first_event"
+  },
+  {
+    "id": "UNKEQCOQ74WMHFXB4QRREVGY",
+    "description": "MON_Hasdeo_Core_2023_10_first_event"
+  },
+  {
+    "id": "DTZCBMLTV6DJYQ4YMIFOGVHK",
+    "description": "MON_Hasdeo_Core_2023_11_first_event"
+  },
+  {
+    "id": "BC65UV7FBQIVKO552TMYIDAE",
+    "description": "MON_Hasdeo_Core_2023_12_first_event"
+  },
+  {
+    "id": "DGKIEFMWF5NU7VGA2E3VESBS",
+    "description": "MON_Hasdeo_Core_2024_01_post_event"
+  },
+  {
+    "id": "YK7CSZNBHQXWITKRPFMPOTNX",
+    "description": "MON_Hasdeo_Core_2024_02_post_event"
+  },
+  {
+    "id": "SQIFF57FQBMPNL4YYKB5E4MU",
+    "description": "MON_Hasdeo_Core_2024_03_post_event"
+  },
+  {
+    "id": "OLS4CD7PY4DVWUASWCJX4NDJ",
+    "description": "MON_Hasdeo_Core_2024_04_post_event"
+  },
+  {
+    "id": "NFL6N4BLSZEUQ7UNPQETO3T2",
+    "description": "MON_Hasdeo_Core_2024_05_post_event"
+  },
+  {
+    "id": "NJYWSHJZCGPTRFDTWIM42HXH",
+    "description": "MON_Hasdeo_Core_2024_06_post_event"
+  },
+  {
+    "id": "ZQOC3S5RTPXCEN6KAUVJ3INU",
+    "description": "MON_Hasdeo_Core_2024_10_post_event"
+  },
+  {
+    "id": "GSIJL6XRQTNTXIQ2GBM4G3SE",
+    "description": "MON_Hasdeo_Core_2024_11_post_event"
+  },
+  {
+    "id": "PN6RX3QWPNUOO6CXSXMI7ILX",
+    "description": "MON_Hasdeo_Core_2024_12_post_event"
+  },
+  {
+    "id": "P3WKN4S4WYQR7IVJTYUDOSSA",
+    "description": "MON_Hasdeo_East_2016_10_pre_event"
+  },
+  {
+    "id": "655TVE4F4CPKW3B4BOBKVIXK",
+    "description": "MON_Hasdeo_East_2016_11_pre_event"
+  },
+  {
+    "id": "CVIA3MW5LREK22AYIXJVSHM6",
+    "description": "MON_Hasdeo_East_2016_12_pre_event"
+  },
+  {
+    "id": "PXOSCNMBQ3T3NKTFPV4R74GP",
+    "description": "MON_Hasdeo_East_2017_01_pre_event"
+  },
+  {
+    "id": "MA3JK3ZK5REZ24Z4IDXQ2ISL",
+    "description": "MON_Hasdeo_East_2017_02_pre_event"
+  },
+  {
+    "id": "BL6BAK5KSHJ5XZGCQNEY4I3V",
+    "description": "MON_Hasdeo_East_2017_03_pre_event"
+  },
+  {
+    "id": "DK5E6BX7Y4XM43DPFBTHDNKY",
+    "description": "MON_Hasdeo_East_2017_11_pre_event"
+  },
+  {
+    "id": "MMIFIJFVYJVCAZWZKKP2HQ32",
+    "description": "MON_Hasdeo_East_2017_12_pre_event"
+  },
+  {
+    "id": "WJ2LK5BGBSRIXO2WLPBO5HNV",
+    "description": "MON_Hasdeo_East_2018_01_first_event"
+  },
+  {
+    "id": "YGYCJ62SDUMLBPYOWKDE633I",
+    "description": "MON_Hasdeo_East_2018_02_first_event"
+  },
+  {
+    "id": "RKAVARLMSMAQ2SZIZCLU4R3T",
+    "description": "MON_Hasdeo_East_2018_03_first_event"
+  },
+  {
+    "id": "WZXPWWRIJ355TG2SGUTXU7UL",
+    "description": "MON_Hasdeo_East_2018_04_first_event"
+  },
+  {
+    "id": "D3TGUKQURQ3O6H42LZPXJ5HF",
+    "description": "MON_Hasdeo_East_2018_10_first_event"
+  },
+  {
+    "id": "KV7TPSKPBMYVZBV4O7K6KI6X",
+    "description": "MON_Hasdeo_East_2018_11_first_event"
+  },
+  {
+    "id": "KOLCJUHK2P6F22I5S5EJIQ6I",
+    "description": "MON_Hasdeo_East_2018_12_first_event"
+  },
+  {
+    "id": "KGZSM777XJTYU4KHF3RADGI6",
+    "description": "MON_Hasdeo_East_2019_01_first_event"
+  },
+  {
+    "id": "LMXPG74QLF27ISPZ772NP6NW",
+    "description": "MON_Hasdeo_East_2019_02_first_event"
+  },
+  {
+    "id": "23KGP5XPN7LF4BEQ6VRTBQWN",
+    "description": "MON_Hasdeo_East_2019_03_first_event"
+  },
+  {
+    "id": "IR23OZAKQFLJE74J44JMWDTS",
+    "description": "MON_Hasdeo_East_2019_04_first_event"
+  },
+  {
+    "id": "ZX3HB7FEVR4TNUWZVV2FRKJT",
+    "description": "MON_Hasdeo_East_2019_05_first_event"
+  },
+  {
+    "id": "SV6H4AN7365Q6EHLNJQVAOP6",
+    "description": "MON_Hasdeo_East_2019_06_first_event"
+  },
+  {
+    "id": "3FZKQM4AXD6L7TPK4EE543ND",
+    "description": "MON_Hasdeo_East_2019_10_first_event"
+  },
+  {
+    "id": "IIQ24UDJTHBWUGBG6LJ75PWZ",
+    "description": "MON_Hasdeo_East_2019_11_first_event"
+  },
+  {
+    "id": "OQLSGBB2VG4LMDQOYP5DUY6R",
+    "description": "MON_Hasdeo_East_2019_12_first_event"
+  },
+  {
+    "id": "IKQYTIZACFDBPM7UI22W6TSJ",
+    "description": "MON_Hasdeo_East_2020_01_first_event"
+  },
+  {
+    "id": "SZD6IFQDQCSQLI7QIWMBPM5G",
+    "description": "MON_Hasdeo_East_2020_02_first_event"
+  },
+  {
+    "id": "AVLDQFP54ZTELR6KZ55AWKF6",
+    "description": "MON_Hasdeo_East_2020_03_first_event"
+  },
+  {
+    "id": "QL6MF4QEZTFVEUIQLBRH72IT",
+    "description": "MON_Hasdeo_East_2020_04_first_event"
+  },
+  {
+    "id": "7JFDNEZ7SFBDOWBNUQMMA4SH",
+    "description": "MON_Hasdeo_East_2020_05_first_event"
+  },
+  {
+    "id": "RKZ6YO7Z5WDLO2CXLB6BTT47",
+    "description": "MON_Hasdeo_East_2020_06_first_event"
+  },
+  {
+    "id": "3CPYYDY45P3PE73EXDNULJNA",
+    "description": "MON_Hasdeo_East_2020_09_first_event"
+  },
+  {
+    "id": "PEVFOC4JTE7QCRJZDATOLCWE",
+    "description": "MON_Hasdeo_East_2020_10_first_event"
+  },
+  {
+    "id": "EOH2SXCG2IB4VYQLGIVJZTKA",
+    "description": "MON_Hasdeo_East_2020_11_first_event"
+  },
+  {
+    "id": "5R3TVRGHGZH3VHBOOXROSNJV",
+    "description": "MON_Hasdeo_East_2020_12_first_event"
+  },
+  {
+    "id": "VWS5YDD6OXIS7MFRCBAKWMHY",
+    "description": "MON_Hasdeo_East_2021_01_first_event"
+  },
+  {
+    "id": "I6W6KVXFRLIHA7QFGLA6WBG3",
+    "description": "MON_Hasdeo_East_2021_02_first_event"
+  },
+  {
+    "id": "2YD5FZFIDRMRRR3BSX5IRUP3",
+    "description": "MON_Hasdeo_East_2021_03_first_event"
+  },
+  {
+    "id": "PFAU5CNHKWLAYJWE7EDLP3DO",
+    "description": "MON_Hasdeo_East_2021_04_first_event"
+  },
+  {
+    "id": "CTPOBP2ILVLSLEAIJJ3R5T3V",
+    "description": "MON_Hasdeo_East_2021_05_first_event"
+  },
+  {
+    "id": "A6RS64WCXMCMX5OYOEJ452V3",
+    "description": "MON_Hasdeo_East_2021_06_first_event"
+  },
+  {
+    "id": "ACPAD47JJNLIYOXF7IGQYLSI",
+    "description": "MON_Hasdeo_East_2021_07_first_event"
+  },
+  {
+    "id": "GTLJ6IVRWX4FBNOMPVXCAHSC",
+    "description": "MON_Hasdeo_East_2021_08_first_event"
+  },
+  {
+    "id": "TRWZYKQYNMPITVYPPYGAGHU7",
+    "description": "MON_Hasdeo_East_2021_10_first_event"
+  },
+  {
+    "id": "KWJS6CHYNRPSTCPPLWMLFVWH",
+    "description": "MON_Hasdeo_East_2021_11_first_event"
+  },
+  {
+    "id": "KWEGSS4WMO7YPUDWNYGZKSZZ",
+    "description": "MON_Hasdeo_East_2021_12_first_event"
+  },
+  {
+    "id": "P4NHERM24WTPJQCVMPC6UUU7",
+    "description": "MON_Hasdeo_East_2022_01_first_event"
+  },
+  {
+    "id": "HD6CFMUPDJSNUWCFKJQPDBMB",
+    "description": "MON_Hasdeo_East_2022_02_first_event"
+  },
+  {
+    "id": "ZGY3BVMLWLU6XT67HV567NOB",
+    "description": "MON_Hasdeo_East_2022_03_second_event"
+  },
+  {
+    "id": "CSNL7274XMTSI7ALWW7WQGSQ",
+    "description": "MON_Hasdeo_East_2022_04_second_event"
+  },
+  {
+    "id": "6AF432CQ2NOAPTQBKZXTP6ME",
+    "description": "MON_Hasdeo_East_2022_05_first_event"
+  },
+  {
+    "id": "ZGSCWC5QIL43VGVELTRWYTKJ",
+    "description": "MON_Hasdeo_East_2022_06_first_event"
+  },
+  {
+    "id": "5KKKPTBGT46HDH5PQCFPJ53W",
+    "description": "MON_Hasdeo_East_2022_10_first_event"
+  },
+  {
+    "id": "E6SUN5SEHYPODMCWWIQ2QEXK",
+    "description": "MON_Hasdeo_East_2022_11_first_event"
+  },
+  {
+    "id": "7O5W4IJE4BNPTUTITVAL6FR6",
+    "description": "MON_Hasdeo_East_2022_12_first_event"
+  },
+  {
+    "id": "QQANPXUMCEZTKW2YACUBORJP",
+    "description": "MON_Hasdeo_East_2023_01_first_event"
+  },
+  {
+    "id": "THJQCFILAV2HEDMCLUN2SE4E",
+    "description": "MON_Hasdeo_East_2023_02_first_event"
+  },
+  {
+    "id": "XD2WXP3E7MJWEQGXYA2AG7II",
+    "description": "MON_Hasdeo_East_2023_03_first_event"
+  },
+  {
+    "id": "C7DI4EUV5RZNYPSAIMMWEEGO",
+    "description": "MON_Hasdeo_East_2023_04_first_event"
+  },
+  {
+    "id": "7BBFPFSWLGENCTZHCJEYFFSS",
+    "description": "MON_Hasdeo_East_2023_05_first_event"
+  },
+  {
+    "id": "JRFI5HUZXF3LBJAXKEKSKEIB",
+    "description": "MON_Hasdeo_East_2023_06_first_event"
+  },
+  {
+    "id": "2QTTTTRXTXSOODNY5TBDJJHV",
+    "description": "MON_Hasdeo_East_2023_08_first_event"
+  },
+  {
+    "id": "ZK24GTQ4TRCYQIERCEPFSDX6",
+    "description": "MON_Hasdeo_East_2023_10_first_event"
+  },
+  {
+    "id": "M5ZGWWEQW4ASWZOM4U7YCAAC",
+    "description": "MON_Hasdeo_East_2023_11_first_event"
+  },
+  {
+    "id": "UKOSMNQSHE3Z7PAG2NZ7J7FD",
+    "description": "MON_Hasdeo_East_2023_12_first_event"
+  },
+  {
+    "id": "USAGMFNH7RFS6DJLS2MYLTQE",
+    "description": "MON_Hasdeo_East_2024_01_post_event"
+  },
+  {
+    "id": "TACIIBU4XRPIMD4XLPLODO5G",
+    "description": "MON_Hasdeo_East_2024_02_post_event"
+  },
+  {
+    "id": "F75QZ7XMS23TJUAIY5QP6N66",
+    "description": "MON_Hasdeo_East_2024_03_post_event"
+  },
+  {
+    "id": "PE3G47XUQO7KMXSX3Y3ODN3Z",
+    "description": "MON_Hasdeo_East_2024_04_post_event"
+  },
+  {
+    "id": "QBFCEYHBKZKEUYIUNVZQXOWE",
+    "description": "MON_Hasdeo_East_2024_05_post_event"
+  },
+  {
+    "id": "XUOSUXYUIHXVR6NZ4VPHO2J3",
+    "description": "MON_Hasdeo_East_2024_06_post_event"
+  },
+  {
+    "id": "YHYEROAE7F4A4YB5Y7LRFLDW",
+    "description": "MON_Hasdeo_East_2024_10_post_event"
+  },
+  {
+    "id": "IXEYDO63F7NZJ6RAPOYB3KGP",
+    "description": "MON_Hasdeo_East_2024_11_post_event"
+  },
+  {
+    "id": "5HNHSUZZXJTMUTBDCCKPVUDV",
+    "description": "MON_Hasdeo_East_2024_12_post_event"
+  },
+  {
+    "id": "XT6QEBT36JNBBKYI774KW5A7",
+    "description": "MON_Hasdeo_West_2016_10_pre_event"
+  },
+  {
+    "id": "NXZCL6WIMW7DU5XE6TGLVWCU",
+    "description": "MON_Hasdeo_West_2016_11_pre_event"
+  },
+  {
+    "id": "R2SN6TZ7UKWYCKZRPRV2MUBC",
+    "description": "MON_Hasdeo_West_2016_12_pre_event"
+  },
+  {
+    "id": "DXTOFE5ES5MFGOMVUIH2PQDI",
+    "description": "MON_Hasdeo_West_2017_01_pre_event"
+  },
+  {
+    "id": "Q2ZQ5ZAXGNMF4LBVIYB33B5M",
+    "description": "MON_Hasdeo_West_2017_02_pre_event"
+  },
+  {
+    "id": "Q5QPLJEYGKQBKD3J5FJGNYIO",
+    "description": "MON_Hasdeo_West_2017_03_pre_event"
+  },
+  {
+    "id": "6PHYLG73L6I2TJCJTUPIUIBZ",
+    "description": "MON_Hasdeo_West_2017_12_pre_event"
+  },
+  {
+    "id": "VKIZRCIP3K2755AAGOYM2UAP",
+    "description": "MON_Hasdeo_West_2018_01_first_event"
+  },
+  {
+    "id": "I6IIOTVOEMZEMKDVFFO4ECHV",
+    "description": "MON_Hasdeo_West_2018_02_first_event"
+  },
+  {
+    "id": "VZVVH5BAOYYSPGSJ3FQN2JWD",
+    "description": "MON_Hasdeo_West_2018_03_first_event"
+  },
+  {
+    "id": "3I7PZPHV3VKSXJ3BA5AQLTUI",
+    "description": "MON_Hasdeo_West_2018_04_first_event"
+  },
+  {
+    "id": "O3KVYVW62ZHX43ACF77V24WV",
+    "description": "MON_Hasdeo_West_2018_10_first_event"
+  },
+  {
+    "id": "NTACDON4P7SDEYLLJR6G6YUT",
+    "description": "MON_Hasdeo_West_2018_11_first_event"
+  },
+  {
+    "id": "BRG3A2ZOTEZMYXUMYKT223KY",
+    "description": "MON_Hasdeo_West_2018_12_first_event"
+  },
+  {
+    "id": "5V7I4CPKIWIOELHCY5TA6ROF",
+    "description": "MON_Hasdeo_West_2019_01_first_event"
+  },
+  {
+    "id": "RFOEAVCUAJDP6BC4SRFC7X4E",
+    "description": "MON_Hasdeo_West_2019_02_first_event"
+  },
+  {
+    "id": "XZAYPHZKF736LL33X7VLIBJD",
+    "description": "MON_Hasdeo_West_2019_03_first_event"
+  },
+  {
+    "id": "TNMS53VAQZVNNUGLIATGSDAE",
+    "description": "MON_Hasdeo_West_2019_04_first_event"
+  },
+  {
+    "id": "3226EZJMST6SEE6BFE7UT4DU",
+    "description": "MON_Hasdeo_West_2019_05_first_event"
+  },
+  {
+    "id": "NPNY4EA54EKBJELMMVCIQNKZ",
+    "description": "MON_Hasdeo_West_2019_06_first_event"
+  },
+  {
+    "id": "RQBEJGIMVRZVTKPO6GNVBCYW",
+    "description": "MON_Hasdeo_West_2019_10_first_event"
+  },
+  {
+    "id": "DB7NUA3CBLYV7XZ7XPHU3DDJ",
+    "description": "MON_Hasdeo_West_2019_11_first_event"
+  },
+  {
+    "id": "PGBWLKM3UXBQK4BLNMVUVLKQ",
+    "description": "MON_Hasdeo_West_2019_12_first_event"
+  },
+  {
+    "id": "275HEFOIHY4EVFLQA7SZ4KMG",
+    "description": "MON_Hasdeo_West_2020_01_first_event"
+  },
+  {
+    "id": "TYFUTFEUFPOZO6RNSGIBNQ5B",
+    "description": "MON_Hasdeo_West_2020_02_first_event"
+  },
+  {
+    "id": "YJRGSENTGPTRM2INMSIAL2G4",
+    "description": "MON_Hasdeo_West_2020_03_first_event"
+  },
+  {
+    "id": "ZLBKMXMCGPCSSZROPQ434KHO",
+    "description": "MON_Hasdeo_West_2020_04_first_event"
+  },
+  {
+    "id": "6EOGEZEAGSTY7TLQ64ZQCAKB",
+    "description": "MON_Hasdeo_West_2020_05_first_event"
+  },
+  {
+    "id": "CVPUOLTAZCORXR75K2VIBR5M",
+    "description": "MON_Hasdeo_West_2020_06_first_event"
+  },
+  {
+    "id": "YW2ECEQDILZIY2MGO3MSFPZ6",
+    "description": "MON_Hasdeo_West_2020_09_first_event"
+  },
+  {
+    "id": "LYG6FJA5INFJOWAVCDDRY5F6",
+    "description": "MON_Hasdeo_West_2020_10_first_event"
+  },
+  {
+    "id": "6PK7WSNHGTGNB2JH7XHZ7SQT",
+    "description": "MON_Hasdeo_West_2020_11_first_event"
+  },
+  {
+    "id": "X5AFDPXGEAVBRRO2CTTIRDZ5",
+    "description": "MON_Hasdeo_West_2020_12_first_event"
+  },
+  {
+    "id": "ZOA4PLVJY35HDRSGRXFECSPH",
+    "description": "MON_Hasdeo_West_2021_01_first_event"
+  },
+  {
+    "id": "VSTL2GCLBETXJ2HXOOBR7QT2",
+    "description": "MON_Hasdeo_West_2021_02_first_event"
+  },
+  {
+    "id": "3LTAOFD6K7ZLAAU5S6YBSP5F",
+    "description": "MON_Hasdeo_West_2021_03_first_event"
+  },
+  {
+    "id": "44YC5SOFRHSKJPTTV2GSNBMQ",
+    "description": "MON_Hasdeo_West_2021_04_first_event"
+  },
+  {
+    "id": "4IF7NXDJLSNUFWFWTUUXJB5T",
+    "description": "MON_Hasdeo_West_2021_05_first_event"
+  },
+  {
+    "id": "K5ADZSKU7IH23TPP4NCLRJ4E",
+    "description": "MON_Hasdeo_West_2021_06_first_event"
+  },
+  {
+    "id": "NXRJ342LQUKMFDJROULCOG4Z",
+    "description": "MON_Hasdeo_West_2021_07_first_event"
+  },
+  {
+    "id": "L3EUUNQAUVDMTANUKGWW3G4Q",
+    "description": "MON_Hasdeo_West_2021_08_first_event"
+  },
+  {
+    "id": "T7K5AN6664DLMQVTO2AOFHNA",
+    "description": "MON_Hasdeo_West_2021_10_first_event"
+  },
+  {
+    "id": "GEIHORXC7ELGRXDIIQODM634",
+    "description": "MON_Hasdeo_West_2021_11_first_event"
+  },
+  {
+    "id": "XQJGR4TBSEZ45JNJESYELWCG",
+    "description": "MON_Hasdeo_West_2021_12_first_event"
+  },
+  {
+    "id": "YKAU4XKHNYNL7HYJEAAYH374",
+    "description": "MON_Hasdeo_West_2022_01_first_event"
+  },
+  {
+    "id": "34DCZI73SMP24OOCM6MC2Z7V",
+    "description": "MON_Hasdeo_West_2022_02_first_event"
+  },
+  {
+    "id": "LTXKCELE3Y4KF4PA4UJQQWQF",
+    "description": "MON_Hasdeo_West_2022_03_second_event"
+  },
+  {
+    "id": "MYMXRM5ENVCP72TE2IZUC6H7",
+    "description": "MON_Hasdeo_West_2022_04_second_event"
+  },
+  {
+    "id": "2JLDGGLNJHFNRHQB37TTQIDM",
+    "description": "MON_Hasdeo_West_2022_05_first_event"
+  },
+  {
+    "id": "D25PEGCMKP7HHJPGPXBTP6PG",
+    "description": "MON_Hasdeo_West_2022_06_first_event"
+  },
+  {
+    "id": "LSIOBJUFLDQRAQ4ESKIHHXG6",
+    "description": "MON_Hasdeo_West_2022_10_first_event"
+  },
+  {
+    "id": "QFTORTZFMPJTZ3UJJ2Y5XGCN",
+    "description": "MON_Hasdeo_West_2022_11_first_event"
+  },
+  {
+    "id": "354IBJZHS6LIK2V426PJ7R6D",
+    "description": "MON_Hasdeo_West_2022_12_first_event"
+  },
+  {
+    "id": "JHQFOQ3Z3BTEVSL7YUACHN6I",
+    "description": "MON_Hasdeo_West_2023_01_first_event"
+  },
+  {
+    "id": "O3O6BX36E3YB2TGVFP3UPRKM",
+    "description": "MON_Hasdeo_West_2023_02_first_event"
+  },
+  {
+    "id": "K3Y3NOSUTWXXG5P53GZ5WSXB",
+    "description": "MON_Hasdeo_West_2023_03_first_event"
+  },
+  {
+    "id": "42WFDPERWQFEVENPIU5DDHL2",
+    "description": "MON_Hasdeo_West_2023_04_first_event"
+  },
+  {
+    "id": "UVTELGXSNUKOINEV7ID4U74P",
+    "description": "MON_Hasdeo_West_2023_05_first_event"
+  },
+  {
+    "id": "USYVMBHA7R4MFPVYGARBSWBZ",
+    "description": "MON_Hasdeo_West_2023_06_first_event"
+  },
+  {
+    "id": "534U5CKCEIGXUD6MSB5ANFPT",
+    "description": "MON_Hasdeo_West_2023_08_first_event"
+  },
+  {
+    "id": "N2B4WH3VGFK2BZOUBSDLNI33",
+    "description": "MON_Hasdeo_West_2023_10_first_event"
+  },
+  {
+    "id": "7RYE36WHKV472PZYR5GE4D7X",
+    "description": "MON_Hasdeo_West_2023_11_first_event"
+  },
+  {
+    "id": "PBDHI4MJA3IWUSAETCPMZ6Y4",
+    "description": "MON_Hasdeo_West_2023_12_first_event"
+  },
+  {
+    "id": "UDU42BF42J5TQCVLF6GQVAKE",
+    "description": "MON_Hasdeo_West_2024_01_post_event"
+  },
+  {
+    "id": "NG7U4VPER4X7E4FFR5YARE74",
+    "description": "MON_Hasdeo_West_2024_02_post_event"
+  },
+  {
+    "id": "EJCLDQPN7CGXFR5SRP3QXB2P",
+    "description": "MON_Hasdeo_West_2024_03_post_event"
+  },
+  {
+    "id": "QHDPOE3P7HWM5N7YIEGYCOZ7",
+    "description": "MON_Hasdeo_West_2024_04_post_event"
+  },
+  {
+    "id": "UHPYNJCO4XDUDHGBIZYVFMNE",
+    "description": "MON_Hasdeo_West_2024_05_post_event"
+  },
+  {
+    "id": "EKU2XTYL6GYJVWLIRFLVJ7NZ",
+    "description": "MON_Hasdeo_West_2024_06_post_event"
+  },
+  {
+    "id": "MLGYQURAZP73JB4FAYYUSI5B",
+    "description": "MON_Hasdeo_West_2024_10_post_event"
+  },
+  {
+    "id": "SF7P6ZH2LD36MDW565OL2XM3",
+    "description": "MON_Hasdeo_West_2024_11_post_event"
+  },
+  {
+    "id": "E4AWTFK7AM3VIVEWOEERVFIW",
+    "description": "MON_Hasdeo_West_2024_12_post_event"
+  },
+  {
+    "id": "PSZCTGTVRJ55J65AHTQ35J5F",
+    "description": "MON_Hasdeo_Buffer_2016_10_pre_event"
+  },
+  {
+    "id": "I5M3Y3RUFS77SNPFYXEXIQW7",
+    "description": "MON_Hasdeo_Buffer_2016_11_pre_event"
+  },
+  {
+    "id": "UZN6AJ7WS3EMFPX3BLN2DZ2V",
+    "description": "MON_Hasdeo_Buffer_2016_12_pre_event"
+  },
+  {
+    "id": "YAMG6FF62FOFB6CWAACO76GG",
+    "description": "MON_Hasdeo_Buffer_2017_01_pre_event"
+  },
+  {
+    "id": "UJP5KZHRJN3RTOK4PGJZKN4B",
+    "description": "MON_Hasdeo_Buffer_2017_02_pre_event"
+  },
+  {
+    "id": "L7LQBO7UIUH2LWAGAWSKTPFE",
+    "description": "MON_Hasdeo_Buffer_2017_03_pre_event"
+  },
+  {
+    "id": "MRXOB2PMDT4I4TXMNO6HDU5M",
+    "description": "MON_Hasdeo_Buffer_2017_11_pre_event"
+  },
+  {
+    "id": "YPFHZXO2FVTA6WZ4SQ6ZFWYP",
+    "description": "MON_Hasdeo_Buffer_2017_12_pre_event"
+  },
+  {
+    "id": "GPDPB3CF6BKLLX2EHQOT2U2L",
+    "description": "MON_Hasdeo_Buffer_2018_01_first_event"
+  },
+  {
+    "id": "RC7QSQL33GVYID2ENBZLCU34",
+    "description": "MON_Hasdeo_Buffer_2018_02_first_event"
+  },
+  {
+    "id": "Y3X4N2NPB4BN22XQCUY2MBNE",
+    "description": "MON_Hasdeo_Buffer_2018_03_first_event"
+  },
+  {
+    "id": "DJPHJYUJEIXO4THMWTB3J2I7",
+    "description": "MON_Hasdeo_Buffer_2018_04_first_event"
+  },
+  {
+    "id": "HZ2AMJ5PZRY3H2U4W2ISWBMU",
+    "description": "MON_Hasdeo_Buffer_2018_10_first_event"
+  },
+  {
+    "id": "JDZGCHELAWDBGVZNDZM6OTM6",
+    "description": "MON_Hasdeo_Buffer_2018_11_first_event"
+  },
+  {
+    "id": "UPXPSLHDPGQXCY33SN563X3D",
+    "description": "MON_Hasdeo_Buffer_2018_12_first_event"
+  },
+  {
+    "id": "HOKFBWXVMQT624FP2SCIE5IR",
+    "description": "MON_Hasdeo_Buffer_2019_01_first_event"
+  },
+  {
+    "id": "SYMDXT7WYOH7YVL6RJWZPICX",
+    "description": "MON_Hasdeo_Buffer_2019_02_first_event"
+  },
+  {
+    "id": "5PK3HQCE6XL5QKZCIKFNCIGK",
+    "description": "MON_Hasdeo_Buffer_2019_03_first_event"
+  },
+  {
+    "id": "RRY3VUT6QRLPH6QLATZKKEAG",
+    "description": "MON_Hasdeo_Buffer_2019_04_first_event"
+  },
+  {
+    "id": "ZNAJKZ2BMEOBOOIW32GVO6EP",
+    "description": "MON_Hasdeo_Buffer_2019_05_first_event"
+  },
+  {
+    "id": "PEO5FFLTXXYOKK5CN3AYT545",
+    "description": "MON_Hasdeo_Buffer_2019_06_first_event"
+  },
+  {
+    "id": "3CSMHO35Y4D3F57LWBZJCTKB",
+    "description": "MON_Hasdeo_Buffer_2019_10_first_event"
+  },
+  {
+    "id": "B3SN7UFHBOWGMOW5HESOJ67D",
+    "description": "MON_Hasdeo_Buffer_2019_11_first_event"
+  },
+  {
+    "id": "DZ6YG7ZVHEBWERXEK72SJLM5",
+    "description": "MON_Hasdeo_Buffer_2019_12_first_event"
+  },
+  {
+    "id": "YWOFEGSXEPEOMUN74FSBY6V2",
+    "description": "MON_Hasdeo_Buffer_2020_01_first_event"
+  },
+  {
+    "id": "UFETOGV2IREF2ZHBPYL3O6TZ",
+    "description": "MON_Hasdeo_Buffer_2020_02_first_event"
+  },
+  {
+    "id": "SU2F5IK3RYDK2VOEGIRPOXKA",
+    "description": "MON_Hasdeo_Buffer_2020_03_first_event"
+  },
+  {
+    "id": "FEY7DULT4S3WW3SUFTAHZUA4",
+    "description": "MON_Hasdeo_Buffer_2020_04_first_event"
+  },
+  {
+    "id": "YM7ASND3E35ITB62WFXDIEAT",
+    "description": "MON_Hasdeo_Buffer_2020_05_first_event"
+  },
+  {
+    "id": "ODL4RNGUHE7CSKRUUDPP5YTO",
+    "description": "MON_Hasdeo_Buffer_2020_06_first_event"
+  },
+  {
+    "id": "WKTGEHO5WZJB5IVR4Z4GQCPF",
+    "description": "MON_Hasdeo_Buffer_2020_09_first_event"
+  },
+  {
+    "id": "AXYM55VX6MOMNCK6XSVFXULV",
+    "description": "MON_Hasdeo_Buffer_2020_10_first_event"
+  },
+  {
+    "id": "5TLK67U5XQADCIQHX5BDG4OB",
+    "description": "MON_Hasdeo_Buffer_2020_11_first_event"
+  },
+  {
+    "id": "T55EVZ7VD4BYXEXQ3ZOX7VLJ",
+    "description": "MON_Hasdeo_Buffer_2020_12_first_event"
+  },
+  {
+    "id": "265DKONW2WYIOCC3DGCTSHVH",
+    "description": "MON_Hasdeo_Buffer_2021_01_first_event"
+  },
+  {
+    "id": "FRGL7C2USHU4FSKZFKQE472S",
+    "description": "MON_Hasdeo_Buffer_2021_02_first_event"
+  },
+  {
+    "id": "PXUPWC4TZ6AME4EIRSJPMNIL",
+    "description": "MON_Hasdeo_Buffer_2021_03_first_event"
+  },
+  {
+    "id": "7K62J22IXV4PQZUUGBG7HVNO",
+    "description": "MON_Hasdeo_Buffer_2021_04_first_event"
+  },
+  {
+    "id": "UBVSENFHFPIIXVTC6PRKQBPL",
+    "description": "MON_Hasdeo_Buffer_2021_05_first_event"
+  },
+  {
+    "id": "MMYQSGO3SVIZPC7DSBCC5ARD",
+    "description": "MON_Hasdeo_Buffer_2021_06_first_event"
+  },
+  {
+    "id": "2XWXNJC4LRDYOJIJ7AMSHKYA",
+    "description": "MON_Hasdeo_Buffer_2021_07_first_event"
+  },
+  {
+    "id": "KKOJA567QAZ4WADL7OHRMLF3",
+    "description": "MON_Hasdeo_Buffer_2021_08_first_event"
+  },
+  {
+    "id": "PMWJYYLDH2443TMYXS2HQK46",
+    "description": "MON_Hasdeo_Buffer_2021_10_first_event"
+  },
+  {
+    "id": "MQBNDFRG2VFTFEHW4AJAVBYN",
+    "description": "MON_Hasdeo_Buffer_2021_11_first_event"
+  },
+  {
+    "id": "56OIZYMIY2UJVKDC7N6TKTXA",
+    "description": "MON_Hasdeo_Buffer_2021_12_first_event"
+  },
+  {
+    "id": "BHSVH4USA6K7QZDSXPOPWHCY",
+    "description": "MON_Hasdeo_Buffer_2022_01_first_event"
+  },
+  {
+    "id": "XP4N3CWP3RS4FW5MAU56PJQF",
+    "description": "MON_Hasdeo_Buffer_2022_02_first_event"
+  },
+  {
+    "id": "FZGMFVRQWQ6KJW7QZFMVCGCQ",
+    "description": "MON_Hasdeo_Buffer_2022_03_second_event"
+  },
+  {
+    "id": "GMTTW7NN6HMPNUUWR3LSTPLL",
+    "description": "MON_Hasdeo_Buffer_2022_04_second_event"
+  },
+  {
+    "id": "TJMS6W6QIRZQMPM4HQQJ6BSN",
+    "description": "MON_Hasdeo_Buffer_2022_05_first_event"
+  },
+  {
+    "id": "WDF6JSHNH3VGFW77I3TH5T3Q",
+    "description": "MON_Hasdeo_Buffer_2022_06_first_event"
+  },
+  {
+    "id": "ENDPU42BRGGCNWN7RPAO6ES3",
+    "description": "MON_Hasdeo_Buffer_2022_10_first_event"
+  },
+  {
+    "id": "V77KTT43PAT3Z5T6YCGGY34Q",
+    "description": "MON_Hasdeo_Buffer_2022_11_first_event"
+  },
+  {
+    "id": "2RXV4EJK7EKNZNNQMO44VY5O",
+    "description": "MON_Hasdeo_Buffer_2022_12_first_event"
+  },
+  {
+    "id": "5MNUOKRKCK6KD52WUZXHLLDT",
+    "description": "MON_Hasdeo_Buffer_2023_01_first_event"
+  },
+  {
+    "id": "3EFY5OZYH35AP5V5KG4LOG66",
+    "description": "MON_Hasdeo_Buffer_2023_02_first_event"
+  },
+  {
+    "id": "SUQL2M3ASJKEYVWICADX4VUS",
+    "description": "MON_Hasdeo_Buffer_2023_03_first_event"
+  },
+  {
+    "id": "IU4VIP5DKWT7X7EFND3335YH",
+    "description": "MON_Hasdeo_Buffer_2023_04_first_event"
+  },
+  {
+    "id": "CQE6YJEWUSATHCYM2CZGPEM5",
+    "description": "MON_Hasdeo_Buffer_2023_05_first_event"
+  },
+  {
+    "id": "2QJCWWZIAUEJ4QQC7DFBPY45",
+    "description": "MON_Hasdeo_Buffer_2023_06_first_event"
+  },
+  {
+    "id": "KOB2PPAWUKBX2GZVXXSSQ7VF",
+    "description": "MON_Hasdeo_Buffer_2023_08_first_event"
+  },
+  {
+    "id": "RKEG5MYPOYFDRAVJTDDQOESF",
+    "description": "MON_Hasdeo_Buffer_2023_10_first_event"
+  },
+  {
+    "id": "RHIP7OVCZNSZHK32V3BORXJG",
+    "description": "MON_Hasdeo_Buffer_2023_11_first_event"
+  },
+  {
+    "id": "DD7U4E35AKCNUKCMOZRRVMUS",
+    "description": "MON_Hasdeo_Buffer_2023_12_first_event"
+  },
+  {
+    "id": "SHO4IGMAP3RUVPZ77CKNBUJH",
+    "description": "MON_Hasdeo_Buffer_2024_01_post_event"
+  },
+  {
+    "id": "TKDDTEN5JPTQNVR3K3XR7TTP",
+    "description": "MON_Hasdeo_Buffer_2024_02_post_event"
+  },
+  {
+    "id": "SKXFLXT6DPIOHRQRFXN2CGPU",
+    "description": "MON_Hasdeo_Buffer_2024_03_post_event"
+  },
+  {
+    "id": "RIWQUTIJAIRTLR5RKE66H7ME",
+    "description": "MON_Hasdeo_Buffer_2024_04_post_event"
+  },
+  {
+    "id": "PAC2D4742OKBHA2GSLWCJ3CD",
+    "description": "MON_Hasdeo_Buffer_2024_05_post_event"
+  },
+  {
+    "id": "EI5OAYTUQ5L4XHO6AZ7A3MKM",
+    "description": "MON_Hasdeo_Buffer_2024_06_post_event"
+  },
+  {
+    "id": "4LAFPCEIGTR4GO673WTJDSSL",
+    "description": "MON_Hasdeo_Buffer_2024_10_post_event"
+  },
+  {
+    "id": "ZNOEJRGE5DJLYR26G57TVGIW",
+    "description": "MON_Hasdeo_Buffer_2024_11_post_event"
+  },
+  {
+    "id": "YN7P6YAIF3UZ3ULHSOEAJQPY",
+    "description": "MON_Hasdeo_Buffer_2024_12_post_event"
+  },
+  {
+    "id": "UMIQ3ZIMCNX222VOMGKQAO6Y",
+    "description": "SEAS_DRY_Hasdeo_Full_2016_pre_event"
+  },
+  {
+    "id": "MFGINPRHKFPVL4VCI2SBBOC7",
+    "description": "SEAS_WET_Hasdeo_Full_2016_pre_event"
+  },
+  {
+    "id": "5LK43LYK4LRSSVDUSZ2A3KMB",
+    "description": "SEAS_DRY_Hasdeo_Full_2017_pre_event"
+  },
+  {
+    "id": "WKJUSGDCFEAD6XT5JVRNHRNK",
+    "description": "SEAS_DRY_Hasdeo_Full_2018_first_event"
+  },
+  {
+    "id": "NWXQJACHW24ZF2Y56PGSHT3E",
+    "description": "SEAS_WET_Hasdeo_Full_2018_first_event"
+  },
+  {
+    "id": "NQ2LLSXDDLRGO4O2P34TDBTC",
+    "description": "SEAS_DRY_Hasdeo_Full_2019_first_event"
+  },
+  {
+    "id": "T4Q6JYJ7GKMEVYM4MCT36XVE",
+    "description": "SEAS_WET_Hasdeo_Full_2019_first_event"
+  },
+  {
+    "id": "FLFCXVZKEMCG65IBKPUW2IRB",
+    "description": "SEAS_DRY_Hasdeo_Full_2020_first_event"
+  },
+  {
+    "id": "Q6OFJBUC2KNBOY6ZOLR5R5FI",
+    "description": "SEAS_WET_Hasdeo_Full_2020_first_event"
+  },
+  {
+    "id": "V7YDIQKO376SODFA3DGOIAK3",
+    "description": "SEAS_DRY_Hasdeo_Full_2021_first_event"
+  },
+  {
+    "id": "25HMXM3FBSJ5OINKTOGXP34I",
+    "description": "SEAS_WET_Hasdeo_Full_2021_first_event"
+  },
+  {
+    "id": "MWYTYBX5C4DMLCDB3QS6T7WV",
+    "description": "SEAS_DRY_Hasdeo_Full_2022_second_event"
+  },
+  {
+    "id": "4Z4E5MLMYJ2SJQK32IMG43ND",
+    "description": "SEAS_WET_Hasdeo_Full_2022_first_event"
+  },
+  {
+    "id": "34O52UBI3WYVLVMN4UTZNWR2",
+    "description": "SEAS_DRY_Hasdeo_Full_2023_first_event"
+  },
+  {
+    "id": "DFFU5WCUHFBENHFYFIXVAKIU",
+    "description": "SEAS_WET_Hasdeo_Full_2023_first_event"
+  },
+  {
+    "id": "SSNFDSU3BEUUE6HZ442JMAJZ",
+    "description": "SEAS_DRY_Hasdeo_Full_2024_post_event"
+  },
+  {
+    "id": "43LCH3B75YQHB4LPAJVW3K5V",
+    "description": "SEAS_WET_Hasdeo_Full_2024_post_event"
+  },
+  {
+    "id": "HME45WGIJICXZLQHXAWKYQZO",
+    "description": "SEAS_DRY_Hasdeo_North_2016_pre_event"
+  },
+  {
+    "id": "BVJQMK3UY5YSMD2UPRRTNKBT",
+    "description": "SEAS_WET_Hasdeo_North_2016_pre_event"
+  },
+  {
+    "id": "RMLHZVPG77JL7OCEVYYQAVFI",
+    "description": "SEAS_DRY_Hasdeo_North_2017_pre_event"
+  },
+  {
+    "id": "AMGRU4YS64PRBRWYFSDKQ4ZV",
+    "description": "SEAS_DRY_Hasdeo_North_2018_first_event"
+  },
+  {
+    "id": "BZYAF3QWP726HRZRV7TZOGLY",
+    "description": "SEAS_WET_Hasdeo_North_2018_first_event"
+  },
+  {
+    "id": "Q2N7CZXXYZ4SPDKJ2R45MMY4",
+    "description": "SEAS_DRY_Hasdeo_North_2019_first_event"
+  },
+  {
+    "id": "OOJOKQELBAPBTOUAFJBULTST",
+    "description": "SEAS_WET_Hasdeo_North_2019_first_event"
+  },
+  {
+    "id": "JEFDHJIVLJSAA7VXBYVOCPLU",
+    "description": "SEAS_DRY_Hasdeo_North_2020_first_event"
+  },
+  {
+    "id": "LOKKCAL3TTAVFAF5JEQMAOPW",
+    "description": "SEAS_WET_Hasdeo_North_2020_first_event"
+  },
+  {
+    "id": "2N7LG7XBVT2CTWBYIQJAQ56B",
+    "description": "SEAS_DRY_Hasdeo_North_2021_first_event"
+  },
+  {
+    "id": "CUE34BPK7ERQEKPEPUVIASOH",
+    "description": "SEAS_WET_Hasdeo_North_2021_first_event"
+  },
+  {
+    "id": "5WA2XAQXPIZMMJJDEJVYZDKK",
+    "description": "SEAS_DRY_Hasdeo_North_2022_second_event"
+  },
+  {
+    "id": "NF2FIWFJC7HUYCPIALB3A54M",
+    "description": "SEAS_WET_Hasdeo_North_2022_first_event"
+  },
+  {
+    "id": "FZ6MU6WTTPBW5YBIEU27GIYD",
+    "description": "SEAS_DRY_Hasdeo_North_2023_first_event"
+  },
+  {
+    "id": "7VHDOSKPFTPKEQXL7KMVZ4LC",
+    "description": "SEAS_WET_Hasdeo_North_2023_first_event"
+  },
+  {
+    "id": "FE7P7ICKPZUF52MHTMWRZUNZ",
+    "description": "SEAS_DRY_Hasdeo_North_2024_post_event"
+  },
+  {
+    "id": "265DUCVLMDTTLDW3YIERVC6L",
+    "description": "SEAS_WET_Hasdeo_North_2024_post_event"
+  },
+  {
+    "id": "5RCK5DU3GAWBEPHP3HFPCCSL",
+    "description": "SEAS_DRY_Hasdeo_South_2016_pre_event"
+  },
+  {
+    "id": "SIE3DB7PREBWU47ENQRLRK2K",
+    "description": "SEAS_WET_Hasdeo_South_2016_pre_event"
+  },
+  {
+    "id": "UQANCSHIOYBBQRZCQTYB4RMG",
+    "description": "SEAS_DRY_Hasdeo_South_2017_pre_event"
+  },
+  {
+    "id": "NUVX5GITAXCCL77YDGT7FFEA",
+    "description": "SEAS_DRY_Hasdeo_South_2018_first_event"
+  },
+  {
+    "id": "YRXDEAW2JTYA7RMXZLPTAH7G",
+    "description": "SEAS_WET_Hasdeo_South_2018_first_event"
+  },
+  {
+    "id": "SOOSPOCNYPXNCMBYU3MOGBLX",
+    "description": "SEAS_DRY_Hasdeo_South_2019_first_event"
+  },
+  {
+    "id": "3NIJYNKLYCJSR6JXDQKZV357",
+    "description": "SEAS_WET_Hasdeo_South_2019_first_event"
+  },
+  {
+    "id": "MQO32BEIQW25AQ3KXPBW765D",
+    "description": "SEAS_DRY_Hasdeo_South_2020_first_event"
+  },
+  {
+    "id": "KBENQL7ENOLC5SI23B2IM37M",
+    "description": "SEAS_WET_Hasdeo_South_2020_first_event"
+  },
+  {
+    "id": "2ZMEXUPYYHRBHSVHELGVR4UO",
+    "description": "SEAS_DRY_Hasdeo_South_2021_first_event"
+  },
+  {
+    "id": "3OA4W7A5NWMWSX4YI3XMD5MV",
+    "description": "SEAS_WET_Hasdeo_South_2021_first_event"
+  },
+  {
+    "id": "EJV2AUT3BDRL6KF2IA7SRZSW",
+    "description": "SEAS_DRY_Hasdeo_South_2022_second_event"
+  },
+  {
+    "id": "SMS5D3QVRXK2564D6XBGK2OX",
+    "description": "SEAS_WET_Hasdeo_South_2022_first_event"
+  },
+  {
+    "id": "MMR4ACKSZILP5LDYNMJEUTXL",
+    "description": "SEAS_DRY_Hasdeo_South_2023_first_event"
+  },
+  {
+    "id": "R3YVC2V3VZN7HDDUWI776M27",
+    "description": "SEAS_WET_Hasdeo_South_2023_first_event"
+  },
+  {
+    "id": "XM7PA4OMAZU56ZWHZJ477KLT",
+    "description": "SEAS_DRY_Hasdeo_South_2024_post_event"
+  },
+  {
+    "id": "TJNHG3S7LSF2RLAJA7OO5BUU",
+    "description": "SEAS_WET_Hasdeo_South_2024_post_event"
+  },
+  {
+    "id": "SYPYQFVLSL6O6OYU43XTW4SK",
+    "description": "SEAS_DRY_Hasdeo_Core_2016_pre_event"
+  },
+  {
+    "id": "X6NAXO2WJBI5UT2FRZTEOFBQ",
+    "description": "SEAS_WET_Hasdeo_Core_2016_pre_event"
+  },
+  {
+    "id": "UERPVEDQ2OCXZRYHJ445FF33",
+    "description": "SEAS_DRY_Hasdeo_Core_2017_pre_event"
+  },
+  {
+    "id": "JA4PM3ZERMEIHPFRHFARXC3A",
+    "description": "SEAS_DRY_Hasdeo_Core_2018_first_event"
+  },
+  {
+    "id": "ITV2ZPQJQCQHKMXRHUITQYXY",
+    "description": "SEAS_WET_Hasdeo_Core_2018_first_event"
+  },
+  {
+    "id": "LDDQUJ7R4FU53CSSTUOQK7KC",
+    "description": "SEAS_DRY_Hasdeo_Core_2019_first_event"
+  },
+  {
+    "id": "DD6TXB3VDECRUKNHCY5GPIOX",
+    "description": "SEAS_WET_Hasdeo_Core_2019_first_event"
+  },
+  {
+    "id": "BF2LVTYWXY2C5RFA2EPHNQGU",
+    "description": "SEAS_DRY_Hasdeo_Core_2020_first_event"
+  },
+  {
+    "id": "55W5PRTRD7U5LS33NAXOZGK4",
+    "description": "SEAS_WET_Hasdeo_Core_2020_first_event"
+  },
+  {
+    "id": "Z43AEAFN2B4AVRGOQTMGWPJE",
+    "description": "SEAS_DRY_Hasdeo_Core_2021_first_event"
+  },
+  {
+    "id": "AWEBCSLPIY5HGSPJLSDD7PEH",
+    "description": "SEAS_WET_Hasdeo_West_2016_pre_event"
+  }
+]
