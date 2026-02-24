@@ -1,0 +1,23 @@
+Region: Warragamba_Dam_South
+Location: Greater Sydney - Blue Mountains Fringe & Warragamba Catchment
+Research Focus: Bushfire, Drought, Regrowth, Deforestation
+Period: DROUGHT & BLACK SUMMER FIRES (2019-2020)
+
+Satellite: SENTINEL-2
+Image Type: RGB (True Color)
+Format: PNG (Viewable)
+Date: 2019-06-09
+Cloud Cover: 5.695279%
+Product ID: S2B_MSIL2A_20190609T000249_N0212_R030_T56HKH_20190609T015908
+Bands: R=B4 (Red), G=B3 (Green), B=B2 (Blue)
+Resolution: 30m
+Processing: NO cloud masking - smoke and fire effects preserved
+
+=== RESEARCH CONTEXT ===
+Black Summer Fires: 2019-2020
+Key Indices for Analysis:
+  • NBR (Normalized Burn Ratio): Fire severity
+  • NDVI (Normalized Difference Vegetation Index): Vegetation health/regrowth
+  • EVI (Enhanced Vegetation Index): Drought impact
+  • NDMI (Normalized Difference Moisture Index): Water stress
+  • NDWI (Normalized Difference Water Index): Drought monitoring

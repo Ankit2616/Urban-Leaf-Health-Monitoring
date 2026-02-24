@@ -1,0 +1,48 @@
+#!/bin/bash
+# ============================================================
+# job_cpu.pbs — CPU Jobs (Data collection, preprocessing, augmentation)
+# Submit with: qsub job_cpu.pbs
+# ============================================================
+
+#PBS -N urban_tree_preprocess
+#PBS -q cpuq                     # CPU-only queue (max 16 cores)
+#PBS -l select=1:ncpus=16
+#PBS -l walltime=24:00:00
+#PBS -j oe
+#PBS -o /Data/username/urban_tree_project/logs/output_cpu.log
+
+cd $PBS_O_WORKDIR
+
+# Activate environment
+source ~/.bashrc
+conda activate urban_tree
+
+export PYTHONNOUSERSITE=1
+PYTHON="/home/username/.conda/envs/urban_tree/bin/python3"
+
+echo "========================================"
+echo "Job: Urban Tree - Preprocessing Pipeline"
+echo "Started: $(date)"
+echo "Node: $(hostname)"
+echo "========================================"
+
+# Step 1: Download data from GEE
+echo "--- Step 1: Data Collection ---"
+$PYTHON 01_data_collection.py
+
+# Step 2: Preprocess (patch extraction + normalization)
+echo "--- Step 2: Preprocessing ---"
+$PYTHON 02_preprocessing.py
+
+# Step 3: Augmentation
+echo "--- Step 3: Augmentation ---"
+$PYTHON 03_augmentation.py
+
+echo "Finished: $(date)"
+echo "All CPU steps complete."
+
+---
+# ============================================================
+# Save the above as job_cpu.pbs
+# Save the below as job_gpu.pbs (separate file)
+# ============================================================

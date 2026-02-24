@@ -1,0 +1,23 @@
+Region: Blue_Mts_Wentworth_Falls
+Location: Greater Sydney - Blue Mountains Fringe & Warragamba Catchment
+Research Focus: Bushfire, Drought, Regrowth, Deforestation
+Period: PRE-FIRE BASELINE (2018)
+
+Satellite: SENTINEL-2
+Image Type: RGB (True Color)
+Format: PNG (Viewable)
+Date: 2018-03-11
+Cloud Cover: 0.080401%
+Product ID: S2A_MSIL2A_20180311T000241_N0500_R030_T56HKH_20230728T045323
+Bands: R=B4 (Red), G=B3 (Green), B=B2 (Blue)
+Resolution: 30m
+Processing: NO cloud masking - smoke and fire effects preserved
+
+=== RESEARCH CONTEXT ===
+Black Summer Fires: 2019-2020
+Key Indices for Analysis:
+  • NBR (Normalized Burn Ratio): Fire severity
+  • NDVI (Normalized Difference Vegetation Index): Vegetation health/regrowth
+  • EVI (Enhanced Vegetation Index): Drought impact
+  • NDMI (Normalized Difference Moisture Index): Water stress
+  • NDWI (Normalized Difference Water Index): Drought monitoring

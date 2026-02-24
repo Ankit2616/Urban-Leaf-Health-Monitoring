@@ -1,0 +1,10 @@
+Region: Hasdeo_Arand_Zoomed
+Satellite: SENTINEL-2
+Image Type: RGB (True Color)
+Format: PNG (Viewable)
+Date: 2021-01-05
+Cloud Cover: 26.294064%
+Product ID: S2B_MSIL2A_20210105T050209_N0214_R119_T44QPL_20210105T074810
+Bands: R=B4 (Red), G=B3 (Green), B=B2 (Blue)
+Resolution: 30m
+Processing: Cloud-masked, normalized to 0-255
