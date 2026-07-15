@@ -123,10 +123,11 @@ class UNet(nn.Module):
         factor     = 2 if bilinear else 1
         self.down4 = Down(f[3], f[4] // factor)
 
-        # Attention gates
-        self.att3  = AttentionGate(f[3] // factor, f[3], f[3] // 2)
-        self.att2  = AttentionGate(f[2] // factor, f[2], f[2] // 2)
-        self.att1  = AttentionGate(f[1] // factor, f[1], f[1] // 2)
+        # Attention gates. The gating channel count must match the decoder
+        # feature map that is passed as `g` in forward().
+        self.att3  = AttentionGate(f[4] // factor, f[3], f[3] // 2)
+        self.att2  = AttentionGate(f[3] // factor, f[2], f[2] // 2)
+        self.att1  = AttentionGate(f[2] // factor, f[1], f[1] // 2)
 
         # Decoder
         self.up1   = Up(f[4], f[3] // factor, bilinear)

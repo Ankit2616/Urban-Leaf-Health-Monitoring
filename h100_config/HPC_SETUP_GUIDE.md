@@ -159,8 +159,8 @@ qdel 3028                       # Replace with your job ID
 Step 1 [cpuq]  → 01_data_collection.py     (Downloads TIFF from GEE)
 Step 2 [cpuq]  → 02_preprocessing.py       (Cloud mask, normalize, patch)
 Step 3 [cpuq]  → 03_augmentation.py        (4000-5000 augmented samples)
-Step 4 [workq] → 04_train.py               (U-Net training on H100)
-Step 5 [cpuq]  → 05_predict_visualize.py   (Inference + map generation)
+Step 4 [workq] → 05_train.py               (Attention U-Net training on H100)
+Step 5 [workq] → 06_predict_visualize.py   (Inference + mask/overlay generation)
 ```
 
 ---
@@ -188,6 +188,29 @@ scp -r username@10.10.11.201:/Data/username/urban_tree_project/results ./
 | Check job status | `qstat -u username` |
 | View live logs | `tail -f output_gpu.log` |
 | Debug job | `tracejob <job_id>` |
+
+---
+
+## PHASE 9: EXPECTED ARTIFACTS
+
+After a successful run, verify these outputs exist:
+
+```bash
+/Data/username/urban_tree_project/models/best_model.pth
+/Data/username/urban_tree_project/results/training_history.json
+/Data/username/urban_tree_project/results/training_history.csv
+/Data/username/urban_tree_project/results/pseudo_label_distribution.json
+/Data/username/urban_tree_project/results/inference_preview/inference_run_summary.json
+```
+
+Run inference manually on any processed folder or GeoTIFF:
+
+```bash
+python 06_predict_visualize.py \
+  --checkpoint /Data/username/urban_tree_project/models/best_model.pth \
+  --input /Data/username/urban_tree_project/processed \
+  --output-dir /Data/username/urban_tree_project/results/inference_preview
+```
 
 ---
 

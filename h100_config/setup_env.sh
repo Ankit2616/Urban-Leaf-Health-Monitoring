@@ -29,6 +29,11 @@ pip install opencv-python-headless
 # Jupyter (for graphical exploration via port-forwarding)
 pip install jupyterlab ipywidgets
 
+# If the repository root is available, install pinned project dependencies too.
+if [ -f "../requirements.txt" ]; then
+  pip install -r ../requirements.txt
+fi
+
 echo ""
 echo "========================================"
 echo "Environment setup complete!"

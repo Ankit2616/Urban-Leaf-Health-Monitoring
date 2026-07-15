@@ -49,6 +49,13 @@ if torch.cuda.is_available():
 echo "--- Starting Training ---"
 $PYTHON 05_train.py
 
+echo "--- Running Inference Preview ---"
+$PYTHON 06_predict_visualize.py \
+  --checkpoint /Data/username/urban_tree_project/models/best_model.pth \
+  --input /Data/username/urban_tree_project/processed \
+  --output-dir /Data/username/urban_tree_project/results/inference_preview \
+  --batch-size 8
+
 echo "========================================"
 echo "Training finished: $(date)"
 echo "========================================"

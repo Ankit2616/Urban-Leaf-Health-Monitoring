@@ -4,21 +4,35 @@ Urban Tree Monitoring System — Phase 5: Model Training (H100 GPU)
 Full training pipeline with: AMP, gradient accumulation, checkpointing, early stopping.
 """
 
+import argparse
+import csv
+import importlib.util
 import os
 import time
 import json
 import logging
 import numpy as np
 import torch
-import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader, random_split
-from torch.cuda.amp import GradScaler, autocast
+from torch.amp import GradScaler, autocast
 from pathlib import Path
 from tqdm import tqdm
 
-# Import our model
-from model_04 import UNet, CombinedLoss
+def load_model_module():
+    """Load 04_model.py without relying on an importable numeric module name."""
+    module_path = Path(__file__).with_name("04_model.py")
+    spec = importlib.util.spec_from_file_location("urban_leaf_model", module_path)
+    if spec is None or spec.loader is None:
+        raise ImportError(f"Could not load model module from {module_path}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+_model_module = load_model_module()
+UNet = _model_module.UNet
+CombinedLoss = _model_module.CombinedLoss
 
 # ─── CONFIG ────────────────────────────────────────────────────────────────────
 
@@ -26,9 +40,6 @@ AUGMENTED_DIR  = Path("/Data/username/urban_tree_project/augmented")
 MODEL_DIR      = Path("/Data/username/urban_tree_project/models")
 RESULTS_DIR    = Path("/Data/username/urban_tree_project/results")
 LOG_DIR        = Path("/Data/username/urban_tree_project/logs")
-
-for d in [MODEL_DIR, RESULTS_DIR, LOG_DIR]:
-    d.mkdir(parents=True, exist_ok=True)
 
 # Model
 N_CHANNELS   = 14
@@ -43,6 +54,7 @@ WEIGHT_DECAY = 1e-4
 GRAD_ACCUM   = 2      # Effective batch = 32
 VAL_SPLIT    = 0.15
 NUM_WORKERS  = 8      # H100 node has many CPU cores available
+SEED         = 42
 
 # H100 optimization flags
 torch.backends.cuda.matmul.allow_tf32 = True
@@ -54,12 +66,42 @@ torch.backends.cudnn.benchmark        = True
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[
-        logging.FileHandler(LOG_DIR / "05_training.log"),
-        logging.StreamHandler()
-    ]
+    handlers=[logging.StreamHandler()]
 )
 log = logging.getLogger(__name__)
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Train Attention U-Net for vegetation segmentation.")
+    parser.add_argument("--data-dir", type=Path, default=AUGMENTED_DIR)
+    parser.add_argument("--model-dir", type=Path, default=MODEL_DIR)
+    parser.add_argument("--results-dir", type=Path, default=RESULTS_DIR)
+    parser.add_argument("--log-dir", type=Path, default=LOG_DIR)
+    parser.add_argument("--epochs", type=int, default=EPOCHS)
+    parser.add_argument("--batch-size", type=int, default=BATCH_SIZE)
+    parser.add_argument("--lr", type=float, default=LR)
+    parser.add_argument("--weight-decay", type=float, default=WEIGHT_DECAY)
+    parser.add_argument("--grad-accum", type=int, default=GRAD_ACCUM)
+    parser.add_argument("--val-split", type=float, default=VAL_SPLIT)
+    parser.add_argument("--num-workers", type=int, default=NUM_WORKERS)
+    parser.add_argument("--patience", type=int, default=15)
+    parser.add_argument("--seed", type=int, default=SEED)
+    parser.add_argument("--resume", type=Path, default=None, help="Checkpoint to resume from.")
+    return parser.parse_args()
+
+
+def configure_file_logging(log_dir):
+    log_dir.mkdir(parents=True, exist_ok=True)
+    file_handler = logging.FileHandler(log_dir / "05_training.log")
+    file_handler.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s"))
+    logging.getLogger().addHandler(file_handler)
+
+
+def seed_everything(seed):
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
 
 # ─── DATASET ───────────────────────────────────────────────────────────────────
 
@@ -79,13 +121,39 @@ class VegetationDataset(Dataset):
         4: "Water/Shadow",      # BSI threshold
     }
 
+    DEFAULT_STATS = {
+        "B2": (0.0500, 0.0300),
+        "NDVI": (0.4000, 0.2000),
+        "BSI": (-0.1000, 0.2000),
+    }
+
     def __init__(self, data_dir, transform=None):
-        self.files     = sorted(Path(data_dir).glob("aug_*.npy"))
+        data_dir = Path(data_dir)
+        self.files = sorted(data_dir.glob("aug_*.npy"))
+        if not self.files:
+            self.files = sorted(data_dir.glob("patch_*.npy"))
         self.transform = transform
+        self.stats = self._load_stats(data_dir)
         log.info(f"Dataset: {len(self.files)} patches in {data_dir}")
 
     def __len__(self):
         return len(self.files)
+
+    def _load_stats(self, data_dir):
+        stats_path = data_dir.parent / "processed" / "band_statistics.json"
+        if not stats_path.exists():
+            return self.DEFAULT_STATS
+        try:
+            with open(stats_path) as f:
+                raw = json.load(f)
+            return {k: tuple(v) for k, v in raw.items()}
+        except Exception as exc:
+            log.warning(f"Could not load {stats_path}: {exc}. Using default pseudo-label stats.")
+            return self.DEFAULT_STATS
+
+    def _denormalize(self, values, band_name):
+        mean, std = self.stats.get(band_name, self.DEFAULT_STATS[band_name])
+        return values * std + mean
 
     def generate_pseudo_label(self, patch):
         """
@@ -93,9 +161,9 @@ class VegetationDataset(Dataset):
         Replace with real annotation masks when available.
         patch: (H, W, C) — channels indexed per BAND_NAMES
         """
-        ndvi = patch[..., 10]   # Band index 10 = NDVI
-        bsi  = patch[..., 13]   # Band index 13 = BSI
-        blue = patch[..., 0]    # Band index 0  = B2 (Blue)
+        ndvi = self._denormalize(patch[..., 10], "NDVI")
+        bsi  = self._denormalize(patch[..., 13], "BSI")
+        blue = self._denormalize(patch[..., 0], "B2")
 
         label = np.zeros((patch.shape[0], patch.shape[1]), dtype=np.int64)
         label[ndvi > 0.4]                           = 0  # Dense vegetation
@@ -137,9 +205,35 @@ def compute_pixel_acc(pred, target):
     total   = target.numel()
     return (correct / total).item()
 
+
+def class_distribution(dataset, n_classes=N_CLASSES):
+    counts = np.zeros(n_classes, dtype=np.int64)
+    for file_path in tqdm(dataset.files, desc="Scanning class distribution"):
+        patch = np.load(file_path).astype(np.float32)
+        labels = dataset.generate_pseudo_label(patch)
+        counts += np.bincount(labels.reshape(-1), minlength=n_classes)[:n_classes]
+    total = counts.sum()
+    return {
+        str(cls): {
+            "name": VegetationDataset.CLASS_MAP[cls],
+            "pixels": int(counts[cls]),
+            "ratio": float(counts[cls] / total) if total else 0.0,
+        }
+        for cls in range(n_classes)
+    }
+
+
+def write_history_csv(history, path):
+    if not history:
+        return
+    with open(path, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=list(history[0].keys()))
+        writer.writeheader()
+        writer.writerows(history)
+
 # ─── TRAINING LOOP ─────────────────────────────────────────────────────────────
 
-def train_one_epoch(model, loader, optimizer, criterion, scaler, device, epoch):
+def train_one_epoch(model, loader, optimizer, criterion, scaler, device, epoch, grad_accum):
     model.train()
     total_loss = 0.0
     optimizer.zero_grad()
@@ -147,21 +241,21 @@ def train_one_epoch(model, loader, optimizer, criterion, scaler, device, epoch):
     for step, (x, y) in enumerate(tqdm(loader, desc=f"Epoch {epoch} [train]")):
         x, y = x.to(device, non_blocking=True), y.to(device, non_blocking=True)
 
-        with autocast():                     # Mixed precision (FP16 on H100)
+        with autocast(device_type=device.type, enabled=device.type == "cuda"):
             logits = model(x)
-            loss   = criterion(logits, y) / GRAD_ACCUM
+            loss   = criterion(logits, y) / grad_accum
 
         scaler.scale(loss).backward()
 
         # Gradient accumulation
-        if (step + 1) % GRAD_ACCUM == 0:
+        if (step + 1) % grad_accum == 0 or (step + 1) == len(loader):
             scaler.unscale_(optimizer)
             torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
             scaler.step(optimizer)
             scaler.update()
             optimizer.zero_grad()
 
-        total_loss += loss.item() * GRAD_ACCUM
+        total_loss += loss.item() * grad_accum
 
     return total_loss / len(loader)
 
@@ -173,7 +267,7 @@ def validate(model, loader, criterion, device):
 
     for x, y in tqdm(loader, desc="Validating"):
         x, y = x.to(device, non_blocking=True), y.to(device, non_blocking=True)
-        with autocast():
+        with autocast(device_type=device.type, enabled=device.type == "cuda"):
             logits = model(x)
             loss   = criterion(logits, y)
 
@@ -188,9 +282,17 @@ def validate(model, loader, criterion, device):
 # ─── MAIN ──────────────────────────────────────────────────────────────────────
 
 def main():
+    args = parse_args()
+    for d in [args.model_dir, args.results_dir, args.log_dir]:
+        d.mkdir(parents=True, exist_ok=True)
+    configure_file_logging(args.log_dir)
+    seed_everything(args.seed)
+
     log.info("=" * 60)
     log.info("Urban Tree Monitoring — Training on H100 GPU")
     log.info("=" * 60)
+    log.info(f"Data dir: {args.data_dir}")
+    log.info(f"Results dir: {args.results_dir}")
 
     # Device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -201,47 +303,71 @@ def main():
         log.warning("No GPU found! Training will be very slow.")
 
     # Dataset + Split
-    dataset = VegetationDataset(AUGMENTED_DIR)
-    n_val   = int(len(dataset) * VAL_SPLIT)
+    dataset = VegetationDataset(args.data_dir)
+    if len(dataset) < 2:
+        raise RuntimeError(
+            f"Need at least 2 training patches in {args.data_dir}. "
+            "Run preprocessing and augmentation first."
+        )
+
+    distribution = class_distribution(dataset)
+    with open(args.results_dir / "pseudo_label_distribution.json", "w") as f:
+        json.dump(distribution, f, indent=2)
+
+    n_val   = max(1, int(len(dataset) * args.val_split))
+    if n_val >= len(dataset):
+        n_val = len(dataset) - 1
     n_train = len(dataset) - n_val
     train_ds, val_ds = random_split(dataset, [n_train, n_val],
-                                     generator=torch.Generator().manual_seed(42))
+                                     generator=torch.Generator().manual_seed(args.seed))
 
     log.info(f"Train: {n_train} | Val: {n_val}")
 
-    train_loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True,
-                              num_workers=NUM_WORKERS, pin_memory=True,
-                              persistent_workers=True, prefetch_factor=2)
-    val_loader   = DataLoader(val_ds, batch_size=BATCH_SIZE, shuffle=False,
-                              num_workers=NUM_WORKERS, pin_memory=True,
-                              persistent_workers=True, prefetch_factor=2)
+    loader_kwargs = {
+        "num_workers": args.num_workers,
+        "pin_memory": device.type == "cuda",
+    }
+    if args.num_workers > 0:
+        loader_kwargs.update({"persistent_workers": True, "prefetch_factor": 2})
+
+    train_loader = DataLoader(train_ds, batch_size=args.batch_size, shuffle=True, **loader_kwargs)
+    val_loader   = DataLoader(val_ds, batch_size=args.batch_size, shuffle=False, **loader_kwargs)
 
     # Model
     model     = UNet(n_channels=N_CHANNELS, n_classes=N_CLASSES).to(device)
     log.info(f"Parameters: {model.count_parameters():,}")
 
     # Optimizer + Scheduler
-    optimizer = optim.AdamW(model.parameters(), lr=LR, weight_decay=WEIGHT_DECAY)
-    scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=EPOCHS, eta_min=1e-6)
+    optimizer = optim.AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
+    scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=args.epochs, eta_min=1e-6)
     criterion = CombinedLoss(ce_weight=0.5, dice_weight=0.5)
-    scaler    = GradScaler()
+    scaler    = GradScaler(device.type, enabled=device.type == "cuda")
 
     # Training state
-    best_iou       = 0.0
-    patience       = 15
+    best_iou       = -1.0
+    start_epoch    = 1
     patience_count = 0
     history        = []
 
+    if args.resume:
+        checkpoint = torch.load(args.resume, map_location=device)
+        model.load_state_dict(checkpoint["model_state"])
+        if "optim_state" in checkpoint:
+            optimizer.load_state_dict(checkpoint["optim_state"])
+        best_iou = float(checkpoint.get("val_iou", best_iou))
+        start_epoch = int(checkpoint.get("epoch", 0)) + 1
+        log.info(f"Resumed from {args.resume} at epoch {start_epoch}")
+
     start_time = time.time()
 
-    for epoch in range(1, EPOCHS + 1):
-        train_loss = train_one_epoch(model, train_loader, optimizer, criterion, scaler, device, epoch)
+    for epoch in range(start_epoch, args.epochs + 1):
+        train_loss = train_one_epoch(model, train_loader, optimizer, criterion, scaler, device, epoch, args.grad_accum)
         val_loss, val_iou, val_acc = validate(model, val_loader, criterion, device)
         scheduler.step()
 
         lr_now = optimizer.param_groups[0]['lr']
         log.info(
-            f"Epoch {epoch:03d}/{EPOCHS} | "
+            f"Epoch {epoch:03d}/{args.epochs} | "
             f"Train Loss: {train_loss:.4f} | "
             f"Val Loss: {val_loss:.4f} | "
             f"Val mIoU: {val_iou:.4f} | "
@@ -258,36 +384,40 @@ def main():
         # Save best model
         if val_iou > best_iou:
             best_iou = val_iou
-            ckpt_path = MODEL_DIR / "best_model.pth"
+            ckpt_path = args.model_dir / "best_model.pth"
             torch.save({
                 'epoch':       epoch,
                 'model_state': model.state_dict(),
                 'optim_state': optimizer.state_dict(),
                 'val_iou':     val_iou,
                 'val_acc':     val_acc,
+                'class_map':   VegetationDataset.CLASS_MAP,
+                'n_channels':  N_CHANNELS,
+                'n_classes':   N_CLASSES,
             }, ckpt_path)
             log.info(f"  ✓ Best model saved (mIoU: {best_iou:.4f})")
             patience_count = 0
         else:
             patience_count += 1
-            if patience_count >= patience:
-                log.info(f"Early stopping at epoch {epoch} (no improvement for {patience} epochs).")
+            if patience_count >= args.patience:
+                log.info(f"Early stopping at epoch {epoch} (no improvement for {args.patience} epochs).")
                 break
 
         # Periodic checkpoint every 10 epochs
         if epoch % 10 == 0:
             torch.save({
                 'epoch': epoch, 'model_state': model.state_dict()
-            }, MODEL_DIR / f"checkpoint_ep{epoch:03d}.pth")
+            }, args.model_dir / f"checkpoint_ep{epoch:03d}.pth")
 
     # Save history
     elapsed = (time.time() - start_time) / 60
-    with open(RESULTS_DIR / "training_history.json", 'w') as f:
+    with open(args.results_dir / "training_history.json", 'w') as f:
         json.dump(history, f, indent=2)
+    write_history_csv(history, args.results_dir / "training_history.csv")
 
     log.info("=" * 60)
     log.info(f"DONE: Best mIoU = {best_iou:.4f} | Total time: {elapsed:.1f} min")
-    log.info(f"Model saved at: {MODEL_DIR / 'best_model.pth'}")
+    log.info(f"Model saved at: {args.model_dir / 'best_model.pth'}")
     log.info("=" * 60)
 
 if __name__ == "__main__":
