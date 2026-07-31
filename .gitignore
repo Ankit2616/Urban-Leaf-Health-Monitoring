@@ -1,0 +1,51 @@
+.next/
+node_modules/
+out/
+*.log
+local_pipeline_test/
+*.tsbuildinfo
+
+# Large/generated model artifacts. Keep these in external storage or release assets.
+models/
+results/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.keras
+
+# Project documentation guides (not needed in source repo)
+docs/
+
+# Large datasets (satellite imagery, CSV exports, metadata, etc.)
+data/
+
+# Generated assets (plots, presentation images, screenshots)
+assets/
+
+# Jupyter notebook checkpoints (auto-generated)
+.ipynb_checkpoints/
+
+# Generated output files from scripts
+scripts/output/
+scripts/**/*.tif
+scripts/**/*.gpkg
+scripts/**/*.shp
+scripts/**/*.shx
+scripts/**/*.dbf
+scripts/**/*.prj
+scripts/**/*.qmd
+scripts/**/*.geojson
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files (API keys, secrets)
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
